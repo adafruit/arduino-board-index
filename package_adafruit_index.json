@@ -1,0 +1,313 @@
+{
+   "packages":[
+      {
+         "name":"adafruit",
+         "maintainer":"Adafruit",
+         "websiteURL":"http://adafruit.com",
+         "email":"info@adafruit.com",
+         "help":{
+            "online":"https://forums.adafruit.com"
+         },
+         "platforms":[
+            {
+               "name":"Adafruit AVR Boards",
+               "architecture":"avr",
+               "version":"1.0.1",
+               "category":"Adafruit",
+               "url":"http://apt.adafruit.com/proxy_files/adafruit-1.0.1.tar.bz2",
+               "archiveFileName":"adafruit-1.0.1.tar.bz2",
+               "checksum":"SHA-256:308e0b8c9a82fee600a3fc86f525a850008f288d4be1b4b305b1dd1be2a285e7",
+               "size":"26390",
+               "help":{
+                  "online":"https://adafruit.com"
+               },
+               "boards":[
+                  {
+                     "name":"Adafruit Flora"
+                  },
+                  {
+                     "name":"Adafruit Gemma 8MHz"
+                  },
+                  {
+                     "name":"Adafruit Trinket 8MHz"
+                  },
+                  {
+                     "name":"Adafruit Trinket 16MHz"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (FTDI)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (FTDI)"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            },
+            {
+               "name":"Adafruit AVR Boards",
+               "architecture":"avr",
+               "version":"1.0.2",
+               "category":"Adafruit",
+               "url":"http://apt.adafruit.com/proxy_files/adafruit-1.0.2.tar.bz2",
+               "archiveFileName":"adafruit-1.0.2.tar.bz2",
+               "checksum":"SHA-256:941de48a4258bbce8c33ffb584caab0bba11eb5428052da2303998c6535712ce",
+               "size":"26589",
+               "help":{
+                  "online":"https://adafruit.com"
+               },
+               "boards":[
+                  {
+                     "name":"Adafruit Flora"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (FTDI)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (FTDI)"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            },
+            {
+               "name":"Adafruit AVR Boards",
+               "architecture":"avr",
+               "version":"1.0.3",
+               "category":"Adafruit",
+               "url":"http://apt.adafruit.com/proxy_files/adafruit-1.0.3.tar.bz2",
+               "archiveFileName":"adafruit-1.0.3.tar.bz2",
+               "checksum":"SHA-256:4cc973e2d95b0eb9e3cbb11550c4ff4d02d82879f9520b75cf42364534363d64",
+               "size":"26674",
+               "help":{
+                  "online":"https://adafruit.com"
+               },
+               "boards":[
+                  {
+                     "name":"Adafruit Flora"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (FTDI)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (FTDI)"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            },
+            {
+               "name":"Adafruit AVR Boards",
+               "architecture":"avr",
+               "version":"1.1.0",
+               "category":"Adafruit",
+               "url":"http://apt.adafruit.com/proxy_files/adafruit-1.1.0.tar.bz2",
+               "archiveFileName":"adafruit-1.1.0.tar.bz2",
+               "checksum":"SHA-256:4e72d4267d9a8d86874edcd021dc661854a5136c0eed947a6fe10366bc51e373",
+               "size":"29455",
+               "help":{
+                  "online":"https://adafruit.com"
+               },
+               "boards":[
+                  {
+                     "name":"Adafruit Flora"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (USB)"
+                  },
+                  {
+                     "name":"Pro Trinket 5V/16MHz (FTDI)"
+                  },
+                  {
+                     "name":"Pro Trinket 3V/12MHz (FTDI)"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+         "tools":[
+
+         ]
+      },
+      {
+         "name":"arcore",
+         "maintainer":"Ralf Kistner",
+         "websiteURL":"https://github.com/rkistner/arcore",
+         "email":"ralf@journeyapps.com",
+         "help":{
+            "online":"https://adafruit.com"
+         },
+         "platforms":[
+            {
+               "name":"Leonardo & Micro MIDI-USB (arcore)",
+               "architecture":"avr",
+               "version":"1.0.0",
+               "category":"Adafruit",
+               "url":"http://apt.adafruit.com/proxy_files/arcore-1.0.0.tar.bz2",
+               "archiveFileName":"arcore-1.0.0.tar.bz2",
+               "checksum":"SHA-256:37ec329c16cc5d8f7da810665505107b24d85e6eea7e74d1677615cf7c5bcb01",
+               "size":"1135927",
+               "help":{
+                  "online":"https://adafruit.com"
+               },
+               "boards":[
+                  {
+                     "name":"Arduino Leonardo (MIDI)"
+                  },
+                  {
+                     "name":"Arduino Leonardo (MIDI, iPad compatible)"
+                  },
+                  {
+                     "name":"Arduino Micro (MIDI)"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"arduino",
+                     "name":"avr-gcc",
+                     "version":"4.8.1-arduino5"
+                  },
+                  {
+                     "packager":"arduino",
+                     "name":"avrdude",
+                     "version":"6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+         "tools":[
+
+         ]
+      },
+      {
+         "name":"esp8266",
+         "maintainer":"ESP8266 Community Forum",
+         "websiteURL":"http://www.esp8266.com",
+         "email":"info@adafruit.com",
+         "help":{
+            "online":"https://adafruit.com"
+         },
+         "platforms":[
+            {
+               "name":"ESP8266",
+               "architecture":"esp8266",
+               "version":"1.6.1",
+               "category":"Adafruit",
+               "url":"http://apt.adafruit.com/proxy_files/esp8266-1.6.1.tar.bz2",
+               "archiveFileName":"esp8266-1.6.1.tar.bz2",
+               "checksum":"SHA-256:0caa1b48de7de52bd59096074e81f3cce15da286ec0a6c3e5380895ea66df0a9",
+               "size":"123332",
+               "help":{
+                  "online":"https://adafruit.com"
+               },
+               "boards":[
+                  {
+                     "name":"Generic ESP8266 board"
+                  },
+                  {
+                     "name":"WIFIO"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"esp8266",
+                     "name":"esptool",
+                     "version":"0.4.2"
+                  }
+               ]
+            }
+         ],
+         "tools":[
+            {
+               "name":"esptool",
+               "version":"0.4.2",
+               "systems":[
+                  {
+                     "host":"i686-mingw32",
+                     "archiveFileName":"esptool-0.4.2-windows.tar.bz2",
+                     "url":"http://apt.adafruit.com/proxy_files/esptool-0.4.2-windows.tar.bz2",
+                     "checksum":"SHA-256:8b22ebaa113ebb7d3740f0a51d00382745c4126724f9245a2f87d8401f5a4559",
+                     "size":"128085753"
+                  },
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"http://apt.adafruit.com/proxy_files/esptool-0.4.2-osx.tar.bz2",
+                     "archiveFileName":"esptool-0.4.2-osx.tar.bz2",
+                     "checksum":"SHA-256:d8b57987ad2ebbbc8f4604204a5637eec6752a68b1ca579fe6021335804c172b",
+                     "size":"50609724"
+                  },
+                  {
+                     "host":"x86_64-pc-linux-gnu",
+                     "url":"http://apt.adafruit.com/proxy_files/esptool-0.4.2-linux64.tar.bz2",
+                     "archiveFileName":"esptool-0.4.2-linux64.tar.bz2",
+                     "checksum":"SHA-256:59570dd2cadfac665201d1c8fb2a43b68a0d17601a2492efc78e0fc6ca9abe3f",
+                     "size":"27304717"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
