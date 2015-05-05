@@ -14,7 +14,7 @@
                "architecture":"avr",
                "version":"1.0.0",
                "category":"Adafruit",
-               "url":"http://apt.adafruit.com/proxy_files/arcore-1.0.0.tar.bz2",
+               "url":"https://adafruit.github.io/arduino-board-index/boards/arcore-1.0.0.tar.bz2",
                "archiveFileName":"arcore-1.0.0.tar.bz2",
                "checksum":"SHA-256:37ec329c16cc5d8f7da810665505107b24d85e6eea7e74d1677615cf7c5bcb01",
                "size":"1135927",
