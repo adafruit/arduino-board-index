@@ -99,6 +99,34 @@
                      "version":"0.4.2"
                   }
                ]
+            },
+            {
+               "name":"ESP8266",
+               "architecture":"esp8266",
+               "version":"1.6.2",
+               "category":"ESP8266",
+               "url":"https://adafruit.github.io/arduino-board-index/boards/esp8266-1.6.2.tar.bz2",
+               "archiveFileName":"esp8266-1.6.2.tar.bz2",
+               "checksum":"SHA-256:a724dad4f6dad32f1442a7cafacaa2a8c35b7980fd89d5062d15446d2f4b08f9",
+               "size":"583062",
+               "help":{
+                  "online":"http://www.esp8266.com"
+               },
+               "boards":[
+                  {
+                     "name":"Generic ESP8266 Module"
+                  },
+                  {
+                     "name":"Adafruit HUZZAH ESP8266"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"esp8266",
+                     "name":"esptool",
+                     "version":"0.4.2-winfix"
+                  }
+               ]
             }
          ],
          "tools":[
@@ -128,7 +156,34 @@
                      "size":"27304717"
                   }
                ]
-            }
+            },
+            {
+              "name":"esptool",
+              "version":"0.4.2-winfix",
+              "systems":[
+                 {
+                    "host":"i686-mingw32",
+                    "archiveFileName":"esptool-0.4.2-winfix-windows.tar.bz2",
+                    "url":"https://github.com/adafruit/arduino-board-index/releases/download/esptool-0.4.2-winfix/esptool-0.4.2-winfix-windows.tar.bz2",
+                    "checksum":"SHA-256:05254c783fe14e8a7d66d48215443b3e9eca3983934f2be52475d3293140d1fd",
+                    "size":"129304518"
+                 },
+                 {
+                    "host":"x86_64-apple-darwin",
+                    "url":"https://github.com/adafruit/arduino-board-index/releases/download/esptool-0.4.2-winfix/esptool-0.4.2-winfix-osx.tar.bz2",
+                    "archiveFileName":"esptool-0.4.2-winfix-osx.tar.bz2",
+                    "checksum":"SHA-256:f3e6b3868769e46ba27670b1a3232481c64282f6a651008403f6ed0dde6cc093",
+                    "size":"32073787"
+                 },
+                 {
+                    "host":"x86_64-pc-linux-gnu",
+                    "url":"https://github.com/adafruit/arduino-board-index/releases/download/esptool-0.4.2-winfix/esptool-0.4.2-winfix-linux.tar.bz2",
+                    "archiveFileName":"esptool-0.4.2-winfix-linux.tar.bz2",
+                    "checksum":"SHA-256:5f111b918a322e2b8906924fc5d6d9488beb878c814ff477db6fd254ca72afbc",
+                    "size":"31421271"
+                 }
+              ]
+           }
          ]
       },
       {
