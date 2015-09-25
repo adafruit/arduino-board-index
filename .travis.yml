@@ -1,0 +1,19 @@
+language: c
+sudo: false
+before_install:
+  - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
+script:
+  - build_platform adafruit:avr:flora8
+  - build_platform adafruit:avr:bluefruitmicro
+  - build_platform adafruit:avr:gemma
+  - build_platform adafruit:avr:metro
+  - build_platform adafruit:avr:trinket3
+  - build_platform adafruit:avr:trinket5
+  - build_platform adafruit:avr:protrinket5
+  - build_platform adafruit:avr:protrinket5ftdi
+  - build_platform adafruit:avr:protrinket3
+  - build_platform adafruit:avr:protrinket3ftdi
+notifications:
+  email:
+    on_success: change
+    on_failure: change
