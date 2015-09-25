@@ -13,6 +13,9 @@ script:
   - build_platform adafruit:avr:protrinket5ftdi
   - build_platform adafruit:avr:protrinket3
   - build_platform adafruit:avr:protrinket3ftdi
+branches:
+  only:
+    - gh-pages
 notifications:
   email:
     on_success: change
