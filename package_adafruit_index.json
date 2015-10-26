@@ -335,6 +335,55 @@
                         }
                     ],
                     "toolsDependencies": []
+                },
+                {
+                    "name": "Adafruit AVR Boards",
+                    "architecture": "avr",
+                    "version": "1.4.0",
+                    "category": "Adafruit",
+                    "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.4.0.tar.bz2",
+                    "archiveFileName": "adafruit-1.4.0.tar.bz2",
+                    "checksum": "SHA-256:7802de461380dce1d02ec7aadee99168d4308922c9a562849947a2e8ce7de4ef",
+                    "size": "91879",
+                    "help": {
+                        "online": "https://forums.adafruit.com"
+                    },
+                    "boards": [
+                        {
+                            "name": "Adafruit Flora"
+                        },
+                        {
+                            "name": "Adafruit Gemma 8MHz"
+                        },
+                        {
+                            "name": "Adafruit Bluefruit Micro"
+                        },
+                        {
+                            "name": "Adafruit Feather 32u4"
+                        },
+                        {
+                            "name": "Adafruit Metro"
+                        },
+                        {
+                            "name": "Adafruit Pro Trinket 5V/16MHz (USB)"
+                        },
+                        {
+                            "name": "Adafruit Pro Trinket 3V/12MHz (USB)"
+                        },
+                        {
+                            "name": "Adafruit Pro Trinket 5V/16MHz (FTDI)"
+                        },
+                        {
+                            "name": "Adafruit Pro Trinket 3V/12MHz (FTDI)"
+                        },
+                        {
+                            "name": "Adafruit Trinket 8MHz"
+                        },
+                        {
+                            "name": "Adafruit Trinket 16MHz"
+                        }
+                    ],
+                    "toolsDependencies": []
                 }
             ],
             "tools": []
