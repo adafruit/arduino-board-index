@@ -384,6 +384,25 @@
                         }
                     ],
                     "toolsDependencies": []
+                },
+                {
+                    "name": "Adafruit SAMD Boards",
+                    "architecture": "samd",
+                    "version": "1.0.3",
+                    "category": "Adafruit",
+                    "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.3.tar.bz2",
+                    "archiveFileName": "adafruit-samd-1.0.3.tar.bz2",
+                    "checksum": "SHA-256:f40c7316d39c3fc634eab97d8f75ee7982adb623afec2450528e6503a83c020d",
+                    "size": "348053",
+                    "help": {
+                        "online": "https://forums.adafruit.com"
+                    },
+                    "boards": [
+                        {
+                            "name": "Adafruit Feather M0"
+                        }
+                    ],
+                    "toolsDependencies": []
                 }
             ],
             "tools": []
