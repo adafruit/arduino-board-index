@@ -430,6 +430,42 @@
 			}],
 			"toolsDependencies": []
 		}, {
+			"name": "Adafruit AVR Boards",
+			"architecture": "avr",
+			"version": "1.4.5",
+			"category": "Adafruit",
+			"url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.5.tar.bz2",
+			"archiveFileName": "adafruit-avr-1.4.5.tar.bz2",
+			"checksum": "SHA-256:8148f91ac5a533414ca23327260610c184013e8cfecb050865cea8ad95e85511",
+			"size": "103939",
+			"help": {
+				"online": "https://forums.adafruit.com"
+			},
+			"boards": [{
+				"name": "Adafruit Flora"
+			}, {
+				"name": "Adafruit Gemma 8MHz"
+			}, {
+				"name": "Adafruit Bluefruit Micro"
+			}, {
+				"name": "Adafruit Feather 32u4"
+			}, {
+				"name": "Adafruit Metro"
+			}, {
+				"name": "Adafruit Pro Trinket 5V/16MHz (USB)"
+			}, {
+				"name": "Adafruit Pro Trinket 3V/12MHz (USB)"
+			}, {
+				"name": "Adafruit Pro Trinket 5V/16MHz (FTDI)"
+			}, {
+				"name": "Adafruit Pro Trinket 3V/12MHz (FTDI)"
+			}, {
+				"name": "Adafruit Trinket 8MHz"
+			}, {
+				"name": "Adafruit Trinket 16MHz"
+			}],
+			"toolsDependencies": []
+		}, {
 			"name": "Adafruit SAMD Boards",
 			"architecture": "samd",
 			"version": "1.0.3",
@@ -454,6 +490,38 @@
 			"archiveFileName": "adafruit-samd-1.0.4.tar.bz2",
 			"checksum": "SHA-256:4fce7f83be4c5e98c3b437a4907c55de37fa1671c445dc95965ad5bce5193407",
 			"size": "346802",
+			"help": {
+				"online": "https://forums.adafruit.com"
+			},
+			"boards": [{
+				"name": "Adafruit Feather M0"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "arm-none-eabi-gcc",
+				"version": "4.8.3-2014q1"
+			}, {
+				"packager": "arduino",
+				"name": "bossac",
+				"version": "1.6.1-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "openocd",
+				"version": "0.9.0-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "CMSIS",
+				"version": "4.0.0-atmel"
+			}]
+		}, {
+			"name": "Adafruit SAMD Boards",
+			"architecture": "samd",
+			"version": "1.0.5",
+			"category": "Adafruit",
+			"url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.5.tar.bz2",
+			"archiveFileName": "adafruit-samd-1.0.5.tar.bz2",
+			"checksum": "SHA-256:1669bc0741c764d195785080a2f98b265a383558fc37f71704db68b0b4dcf6f6",
+			"size": "346935",
 			"help": {
 				"online": "https://forums.adafruit.com"
 			},
@@ -545,5 +613,23 @@
 			"toolsDependencies": []
 		}],
 		"tools": []
+	}, {
+		"name": "Adafruit TeeOnArdu",
+		"architecture": "avr",
+		"version": "1.0.1",
+		"category": "Adafruit",
+		"url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-teeonardu-1.0.1.tar.bz2",
+		"archiveFileName": "adafruit-teeonardu-1.0.1.tar.bz2",
+		"checksum": "SHA-256:57774bb60305f2e02e7513beb0dfd74b1b4398c8328f485cf79dce3148321b37",
+		"size": "116524",
+		"help": {
+			"online": "https://forums.adafruit.com"
+		},
+		"boards": [{
+			"name": "TeeOnArdu (Leo on TeensyCore)"
+		}, {
+			"name": "Flora (TeensyCore)"
+		}],
+		"toolsDependencies": []
 	}]
 }
