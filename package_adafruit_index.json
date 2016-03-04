@@ -577,6 +577,39 @@
 				"name": "CMSIS",
 				"version": "4.0.0-atmel"
 			}]
+		},
+                {
+			"name": "Adafruit SAMD Boards",
+			"architecture": "samd",
+			"version": "1.0.7",
+			"category": "Adafruit",
+			"url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.7.tar.bz2",
+			"archiveFileName": "adafruit-samd-1.0.7.tar.bz2",
+			"checksum": "SHA-256:646a3b729464fc48c19fdfd58aad6eee2537c524c1eff2f48712f12194c89733",
+			"size": "347253",
+			"help": {
+				"online": "https://forums.adafruit.com"
+			},
+			"boards": [{
+				"name": "Adafruit Feather M0"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "arm-none-eabi-gcc",
+				"version": "4.8.3-2014q1"
+			}, {
+				"packager": "arduino",
+				"name": "bossac",
+				"version": "1.6.1-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "openocd",
+				"version": "0.9.0-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "CMSIS",
+				"version": "4.0.0-atmel"
+			}]
 		}],
 		"tools": []
 	}, {
