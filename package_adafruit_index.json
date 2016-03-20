@@ -466,6 +466,42 @@
 			}],
 			"toolsDependencies": []
 		}, {
+			"name": "Adafruit AVR Boards",
+			"architecture": "avr",
+			"version": "1.4.6",
+			"category": "Adafruit",
+			"url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.6.tar.bz2",
+			"archiveFileName": "adafruit-avr-1.4.6.tar.bz2",
+			"checksum": "SHA-256:5aee8bda8fa87c65ab760312f7e8d918c77db1457946edf7aadd1e667b2dce82",
+			"size": "106237",
+			"help": {
+				"online": "https://forums.adafruit.com"
+			},
+			"boards": [{
+				"name": "Adafruit Flora"
+			}, {
+				"name": "Adafruit Gemma 8MHz"
+			}, {
+				"name": "Adafruit Bluefruit Micro"
+			}, {
+				"name": "Adafruit Feather 32u4"
+			}, {
+				"name": "Adafruit Metro"
+			}, {
+				"name": "Adafruit Pro Trinket 5V/16MHz (USB)"
+			}, {
+				"name": "Adafruit Pro Trinket 3V/12MHz (USB)"
+			}, {
+				"name": "Adafruit Pro Trinket 5V/16MHz (FTDI)"
+			}, {
+				"name": "Adafruit Pro Trinket 3V/12MHz (FTDI)"
+			}, {
+				"name": "Adafruit Trinket 8MHz"
+			}, {
+				"name": "Adafruit Trinket 16MHz"
+			}],
+			"toolsDependencies": []
+		}, {
 			"name": "Adafruit SAMD Boards",
 			"architecture": "samd",
 			"version": "1.0.3",
@@ -577,8 +613,7 @@
 				"name": "CMSIS",
 				"version": "4.0.0-atmel"
 			}]
-		},
-                {
+		}, {
 			"name": "Adafruit SAMD Boards",
 			"architecture": "samd",
 			"version": "1.0.7",
@@ -587,6 +622,38 @@
 			"archiveFileName": "adafruit-samd-1.0.7.tar.bz2",
 			"checksum": "SHA-256:646a3b729464fc48c19fdfd58aad6eee2537c524c1eff2f48712f12194c89733",
 			"size": "347253",
+			"help": {
+				"online": "https://forums.adafruit.com"
+			},
+			"boards": [{
+				"name": "Adafruit Feather M0"
+			}],
+			"toolsDependencies": [{
+				"packager": "arduino",
+				"name": "arm-none-eabi-gcc",
+				"version": "4.8.3-2014q1"
+			}, {
+				"packager": "arduino",
+				"name": "bossac",
+				"version": "1.6.1-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "openocd",
+				"version": "0.9.0-arduino"
+			}, {
+				"packager": "arduino",
+				"name": "CMSIS",
+				"version": "4.0.0-atmel"
+			}]
+		}, {
+			"name": "Adafruit SAMD Boards",
+			"architecture": "samd",
+			"version": "1.0.8",
+			"category": "Adafruit",
+			"url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.8.tar.bz2",
+			"archiveFileName": "adafruit-samd-1.0.8.tar.bz2",
+			"checksum": "SHA-256:5db5701fdbc550bd5f067266ce0369335b3d84d93f49e4e0ca8024f9fe3194fd",
+			"size": "1079915",
 			"help": {
 				"online": "https://forums.adafruit.com"
 			},
