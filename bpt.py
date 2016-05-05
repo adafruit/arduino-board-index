@@ -150,6 +150,9 @@ def update_index(ctx, package_name, force, output_board_index, output_board_dir)
     from the config if unsure).
     """
     ctx.obj.load_data()  # Load all the package config & metadata.
+    # Use the input board index as the output if none is specified.
+    if output_board_index is None:
+        output_board_index = ctx.obj.board_index_file
     # Validate that the specified package exists in the config.
     package = ctx.obj.board_config.get_package(package_name)
     if package is None:
