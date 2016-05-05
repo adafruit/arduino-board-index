@@ -118,7 +118,7 @@ def check_updates(ctx):
             continue
         # Find the most recent version in the index packages.
         latest = max(map(lambda x: parse_version(x.get('version', '')), index_packages))
-        click.echo('    latest index version = {0}'.format(latest))
+        click.echo('    latest index version = {0}'.format(str(latest)))
         # Warn if the latest published package is older than the current package
         # from its origin source.
         if latest < parse_version(version):
