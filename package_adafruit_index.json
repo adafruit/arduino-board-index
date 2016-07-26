@@ -14,9 +14,23 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.1.0.tar.bz2",
           "checksum": "SHA-256:4e72d4267d9a8d86874edcd021dc661854a5136c0eed947a6fe10366bc51e373",
+          "name": "Adafruit AVR Boards",
           "version": "1.1.0",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.1.0.tar.bz2",
+          "size": "29455",
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.1-arduino5",
+              "name": "avr-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "6.0.1-arduino5",
+              "name": "avrdude"
+            }
+          ],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -42,21 +56,7 @@
             {
               "name": "Pro Trinket 3V/12MHz (FTDI)"
             }
-          ],
-          "size": "29455",
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.1-arduino5",
-              "name": "avr-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "6.0.1-arduino5",
-              "name": "avrdude"
-            }
-          ],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -65,9 +65,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.2.0.tar.bz2",
           "checksum": "SHA-256:90eb3aa4dfa95bd6da723109c6cd69e1915219d4fbc7c17ceaae990912c86778",
+          "name": "Adafruit AVR Boards",
           "version": "1.2.0",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.2.0.tar.bz2",
+          "size": "5109",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -96,10 +99,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "5109",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -108,9 +108,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.3.0.tar.bz2",
           "checksum": "SHA-256:1a702232b39a0a5c3796bee3010097c07f9e540432ed8baf6b2cf2796bcd7df8",
+          "name": "Adafruit AVR Boards",
           "version": "1.3.0",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.3.0.tar.bz2",
+          "size": "5995",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -142,10 +145,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "5995",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -154,9 +154,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.3.1.tar.bz2",
           "checksum": "SHA-256:49dc6efcc9185fec999a6b7ce16888cb822468703db42624125ab401a0612a84",
+          "name": "Adafruit AVR Boards",
           "version": "1.3.1",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.3.1.tar.bz2",
+          "size": "88230",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -188,10 +191,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "88230",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -200,9 +200,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.3.2.tar.bz2",
           "checksum": "SHA-256:d70a0f4f3ab9fe161dc664063b820cf00aa4c5aad57d5f7b83b7d784f8300ffb",
+          "name": "Adafruit AVR Boards",
           "version": "1.3.2",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.3.2.tar.bz2",
+          "size": "83617",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -234,10 +237,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "83617",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -246,9 +246,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.3.3.tar.bz2",
           "checksum": "SHA-256:680f2c657c663270407f1fdfc36e33d29449fcfcb3a970319fa00bbac1b511a2",
+          "name": "Adafruit AVR Boards",
           "version": "1.3.3",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.3.3.tar.bz2",
+          "size": "86696",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -280,10 +283,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "86696",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -292,9 +292,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.3.4.tar.bz2",
           "checksum": "SHA-256:2f6d0538b4bb0470f996ea206cad908175ead2c25e2eeabf34d12ffaa964f4ad",
+          "name": "Adafruit AVR Boards",
           "version": "1.3.4",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.3.4.tar.bz2",
+          "size": "90327",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -329,10 +332,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "90327",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -341,9 +341,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-1.4.0.tar.bz2",
           "checksum": "SHA-256:7802de461380dce1d02ec7aadee99168d4308922c9a562849947a2e8ce7de4ef",
+          "name": "Adafruit AVR Boards",
           "version": "1.4.0",
           "architecture": "avr",
           "archiveFileName": "adafruit-1.4.0.tar.bz2",
+          "size": "91879",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -378,10 +381,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "91879",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -390,9 +390,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.1.tar.bz2",
           "checksum": "SHA-256:a471fc34389dbc8da25b28021a5dbd96c31e40cfe5f3b216ce06ffa9629e9c65",
+          "name": "Adafruit AVR Boards",
           "version": "1.4.1",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.1.tar.bz2",
+          "size": "86210",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -427,10 +430,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "86210",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -439,9 +439,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.2.tar.bz2",
           "checksum": "SHA-256:17cd7ea9a3edc1d3f2d38a4ef772e105449fd74f8d61e9f8d24964864456e0c1",
+          "name": "Adafruit AVR Boards",
           "version": "1.4.2",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.2.tar.bz2",
+          "size": "86378",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -476,10 +479,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "86378",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -488,9 +488,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.3.tar.bz2",
           "checksum": "SHA-256:ab34c8994e7e088c792e15a4a07ac63351fb5b1432ce6b3dd86fcd43628d643d",
+          "name": "Adafruit AVR Boards",
           "version": "1.4.3",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.3.tar.bz2",
+          "size": "100273",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -525,10 +528,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "100273",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -537,9 +537,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.4.tar.bz2",
           "checksum": "SHA-256:32ef290a5ec48fa067d38a8537d83718bdf998525c4ca53b0415fffad0bc9ddc",
+          "name": "Adafruit AVR Boards",
           "version": "1.4.4",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.4.tar.bz2",
+          "size": "100292",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -574,10 +577,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "100292",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -586,9 +586,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.5.tar.bz2",
           "checksum": "SHA-256:8148f91ac5a533414ca23327260610c184013e8cfecb050865cea8ad95e85511",
+          "name": "Adafruit AVR Boards",
           "version": "1.4.5",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.5.tar.bz2",
+          "size": "103939",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -623,10 +626,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "103939",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -635,9 +635,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.6.tar.bz2",
           "checksum": "SHA-256:5aee8bda8fa87c65ab760312f7e8d918c77db1457946edf7aadd1e667b2dce82",
+          "name": "Adafruit AVR Boards",
           "version": "1.4.6",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.6.tar.bz2",
+          "size": "106237",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -672,10 +675,7 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ],
-          "size": "106237",
-          "toolsDependencies": [],
-          "name": "Adafruit AVR Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -684,17 +684,17 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.3.tar.bz2",
           "checksum": "SHA-256:f40c7316d39c3fc634eab97d8f75ee7982adb623afec2450528e6503a83c020d",
+          "name": "Adafruit SAMD Boards",
           "version": "1.0.3",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.3.tar.bz2",
+          "size": "348053",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Feather M0"
             }
-          ],
-          "size": "348053",
-          "toolsDependencies": [],
-          "name": "Adafruit SAMD Boards"
+          ]
         },
         {
           "category": "Adafruit",
@@ -703,14 +703,10 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.4.tar.bz2",
           "checksum": "SHA-256:4fce7f83be4c5e98c3b437a4907c55de37fa1671c445dc95965ad5bce5193407",
+          "name": "Adafruit SAMD Boards",
           "version": "1.0.4",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.4.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Feather M0"
-            }
-          ],
           "size": "346802",
           "toolsDependencies": [
             {
@@ -734,7 +730,11 @@
               "name": "CMSIS"
             }
           ],
-          "name": "Adafruit SAMD Boards"
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ]
         },
         {
           "category": "Adafruit",
@@ -743,14 +743,10 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.5.tar.bz2",
           "checksum": "SHA-256:1669bc0741c764d195785080a2f98b265a383558fc37f71704db68b0b4dcf6f6",
+          "name": "Adafruit SAMD Boards",
           "version": "1.0.5",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.5.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Feather M0"
-            }
-          ],
           "size": "346935",
           "toolsDependencies": [
             {
@@ -774,7 +770,11 @@
               "name": "CMSIS"
             }
           ],
-          "name": "Adafruit SAMD Boards"
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ]
         },
         {
           "category": "Adafruit",
@@ -783,14 +783,10 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.6.tar.bz2",
           "checksum": "SHA-256:851303cf4837e17890e5e6d57114f7a08ebb70bb7919e480d731e4c3876a68a2",
+          "name": "Adafruit SAMD Boards",
           "version": "1.0.6",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.6.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Feather M0"
-            }
-          ],
           "size": "347277",
           "toolsDependencies": [
             {
@@ -814,7 +810,11 @@
               "name": "CMSIS"
             }
           ],
-          "name": "Adafruit SAMD Boards"
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ]
         },
         {
           "category": "Adafruit",
@@ -823,14 +823,10 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.7.tar.bz2",
           "checksum": "SHA-256:646a3b729464fc48c19fdfd58aad6eee2537c524c1eff2f48712f12194c89733",
+          "name": "Adafruit SAMD Boards",
           "version": "1.0.7",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.7.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Feather M0"
-            }
-          ],
           "size": "347253",
           "toolsDependencies": [
             {
@@ -854,7 +850,11 @@
               "name": "CMSIS"
             }
           ],
-          "name": "Adafruit SAMD Boards"
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ]
         },
         {
           "category": "Adafruit",
@@ -863,14 +863,10 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.8.tar.bz2",
           "checksum": "SHA-256:5db5701fdbc550bd5f067266ce0369335b3d84d93f49e4e0ca8024f9fe3194fd",
+          "name": "Adafruit SAMD Boards",
           "version": "1.0.8",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.8.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Feather M0"
-            }
-          ],
           "size": "1079915",
           "toolsDependencies": [
             {
@@ -894,7 +890,11 @@
               "name": "CMSIS"
             }
           ],
-          "name": "Adafruit SAMD Boards"
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ]
         },
         {
           "category": "Adafruit",
@@ -903,12 +903,9 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.7.tar.bz2",
           "checksum": "SHA-256:53a1fbd497b71842d6e2336938b1ea7a95da1f25ad31cfa87f0f4bb681ffea4b",
-          "name": "Adafruit AVR Boards",
           "version": "1.4.7",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.7.tar.bz2",
-          "size": "886050",
-          "toolsDependencies": [],
           "boards": [
             {
               "name": "Adafruit Flora"
@@ -943,7 +940,10 @@
             {
               "name": "Adafruit Trinket 16MHz"
             }
-          ]
+          ],
+          "size": "886050",
+          "toolsDependencies": [],
+          "name": "Adafruit AVR Boards"
         },
         {
           "category": "Adafruit",
@@ -952,14 +952,10 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.9.tar.bz2",
           "checksum": "SHA-256:6c860af3acc1874a90fff665d0e9fd87f7fc01ecffdc04c989d28823f4eece03",
+          "name": "Adafruit SAMD Boards",
           "version": "1.0.9",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.9.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Feather M0"
-            }
-          ],
           "size": "9783793",
           "toolsDependencies": [
             {
@@ -983,7 +979,11 @@
               "name": "CMSIS"
             }
           ],
-          "name": "Adafruit SAMD Boards"
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ]
         },
         {
           "category": "Adafruit",
@@ -992,11 +992,51 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.10.tar.bz2",
           "checksum": "SHA-256:f54af194e5e4b53ee2dbbc1aa2f12620356e95839a0d4e2031a0dcf60b73a3d6",
-          "name": "Adafruit SAMD Boards",
           "version": "1.0.10",
           "architecture": "samd",
           "archiveFileName": "adafruit-samd-1.0.10.tar.bz2",
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ],
           "size": "12823905",
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.6.1-arduino",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "version": "4.0.0-atmel",
+              "name": "CMSIS"
+            }
+          ],
+          "name": "Adafruit SAMD Boards"
+        },
+        {
+          "category": "Adafruit",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.11.tar.bz2",
+          "checksum": "SHA-256:a7b94fdbcf141dd1ca264b7e4341dd1eeedb62e4b50f14a38e699f1ce68650b1",
+          "name": "Adafruit SAMD Boards",
+          "version": "1.0.11",
+          "architecture": "samd",
+          "archiveFileName": "adafruit-samd-1.0.11.tar.bz2",
+          "size": "12823446",
           "toolsDependencies": [
             {
               "packager": "arduino",
@@ -1030,49 +1070,8 @@
           "help": {
             "online": "https://forums.adafruit.com"
           },
-          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.11.tar.bz2",
-          "checksum": "SHA-256:a7b94fdbcf141dd1ca264b7e4341dd1eeedb62e4b50f14a38e699f1ce68650b1",
-          "version": "1.0.11",
-          "architecture": "samd",
-          "archiveFileName": "adafruit-samd-1.0.11.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Feather M0"
-            }
-          ],
-          "size": "12823446",
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.6.1-arduino",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "version": "4.0.0-atmel",
-              "name": "CMSIS"
-            }
-          ],
-          "name": "Adafruit SAMD Boards"
-        },
-        {
-          "category": "Adafruit",
-          "name": "Adafruit AVR Boards",
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.8.tar.bz2",
           "checksum": "SHA-256:447a72a86ce24664bd5912f407b2e5457a8274c29d2fbf34c830f3517609a811",
-          "help": {
-            "online": "https://forums.adafruit.com"
-          },
           "version": "1.4.8",
           "architecture": "avr",
           "archiveFileName": "adafruit-avr-1.4.8.tar.bz2",
@@ -1111,8 +1110,49 @@
               "name": "Adafruit Trinket 16MHz"
             }
           ],
+          "size": "640748",
           "toolsDependencies": [],
-          "size": "640748"
+          "name": "Adafruit AVR Boards"
+        },
+        {
+          "category": "Adafruit",
+          "name": "Adafruit SAMD Boards",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.0.12.tar.bz2",
+          "checksum": "SHA-256:545f645d39463170458c2e113477b149d0f8af4732527bf3c48f328220b9e22f",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "version": "1.0.12",
+          "architecture": "samd",
+          "archiveFileName": "adafruit-samd-1.0.12.tar.bz2",
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "arduino",
+              "version": "1.6.1-arduino",
+              "name": "bossac"
+            },
+            {
+              "packager": "arduino",
+              "version": "0.9.0-arduino",
+              "name": "openocd"
+            },
+            {
+              "packager": "arduino",
+              "version": "4.0.0-atmel",
+              "name": "CMSIS"
+            }
+          ],
+          "size": "12904650"
         }
       ],
       "tools": [],
@@ -1133,20 +1173,10 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/arcore-1.0.0.tar.bz2",
           "checksum": "SHA-256:37ec329c16cc5d8f7da810665505107b24d85e6eea7e74d1677615cf7c5bcb01",
+          "name": "Leonardo & Micro MIDI-USB (arcore)",
           "version": "1.0.0",
           "architecture": "avr",
           "archiveFileName": "arcore-1.0.0.tar.bz2",
-          "boards": [
-            {
-              "name": "Arduino Leonardo (MIDI)"
-            },
-            {
-              "name": "Arduino Leonardo (MIDI, iPad compatible)"
-            },
-            {
-              "name": "Arduino Micro (MIDI)"
-            }
-          ],
           "size": "1135927",
           "toolsDependencies": [
             {
@@ -1160,7 +1190,17 @@
               "name": "avrdude"
             }
           ],
-          "name": "Leonardo & Micro MIDI-USB (arcore)"
+          "boards": [
+            {
+              "name": "Arduino Leonardo (MIDI)"
+            },
+            {
+              "name": "Arduino Leonardo (MIDI, iPad compatible)"
+            },
+            {
+              "name": "Arduino Micro (MIDI)"
+            }
+          ]
         }
       ],
       "tools": [],
@@ -1181,9 +1221,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-teeonardu-1.0.0.tar.bz2",
           "checksum": "SHA-256:5217cdb46a88874e461078167d8bed97d5a97c05602ecf339312a4137041e02c",
+          "name": "Adafruit TeeOnArdu",
           "version": "1.0.0",
           "architecture": "avr",
           "archiveFileName": "adafruit-teeonardu-1.0.0.tar.bz2",
+          "size": "131767",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "TeeOnArdu (Leo on TeensyCore)"
@@ -1191,10 +1234,7 @@
             {
               "name": "Flora (TeensyCore)"
             }
-          ],
-          "size": "131767",
-          "toolsDependencies": [],
-          "name": "Adafruit TeeOnArdu"
+          ]
         },
         {
           "category": "Adafruit",
@@ -1203,9 +1243,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-teeonardu-1.0.1.tar.bz2",
           "checksum": "SHA-256:58540d35acb79bfaa6522edf6962684a3aab68dc6dadc2f119fdedd2831b3d0b",
+          "name": "Adafruit TeeOnArdu",
           "version": "1.0.1",
           "architecture": "avr",
           "archiveFileName": "adafruit-teeonardu-1.0.1.tar.bz2",
+          "size": "131742",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "TeeOnArdu (Leo on TeensyCore)"
@@ -1213,10 +1256,7 @@
             {
               "name": "Flora (TeensyCore)"
             }
-          ],
-          "size": "131742",
-          "toolsDependencies": [],
-          "name": "Adafruit TeeOnArdu"
+          ]
         },
         {
           "category": "Adafruit",
@@ -1225,9 +1265,12 @@
           },
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-teeonardu-1.0.2.tar.bz2",
           "checksum": "SHA-256:dd0ab6579b39c99367204d17cb94c4f9086cb92e671f8e44996cad6c5a5786a8",
+          "name": "Adafruit TeeOnArdu",
           "version": "1.0.2",
           "architecture": "avr",
           "archiveFileName": "adafruit-teeonardu-1.0.2.tar.bz2",
+          "size": "396336",
+          "toolsDependencies": [],
           "boards": [
             {
               "name": "TeeOnArdu (Leo on TeensyCore)"
@@ -1235,10 +1278,7 @@
             {
               "name": "Flora (TeensyCore)"
             }
-          ],
-          "size": "396336",
-          "toolsDependencies": [],
-          "name": "Adafruit TeeOnArdu"
+          ]
         }
       ],
       "tools": [],
