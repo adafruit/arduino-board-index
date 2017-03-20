@@ -1320,40 +1320,15 @@
         },
         {
           "category": "Adafruit",
-          "help": {
-            "online": "https://forums.adafruit.com"
-          },
-          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nRF52-0.2.0.tar.bz2",
-          "checksum": "SHA-256:0fe5d902db8b1e9813490da66952bf10a1a8fc39ad0a3fd268af8e24f1dde9cd",
-          "version": "0.2.0",
-          "architecture": "nrf52",
-          "archiveFileName": "adafruit-nRF52-0.2.0.tar.bz2",
-          "boards": [
-            {
-              "name": "Adafruit Bluefruit nRF52 Feather"
-            }
-          ],
-          "size": "14977979",
-          "toolsDependencies": [
-            {
-              "packager": "adafruit",
-              "version": "5_2-2015q4",
-              "name": "gcc-arm-none-eabi"
-            }
-          ],
-          "name": "Adafruit nRF52"
-        },
-        {
-          "category": "Adafruit",
           "name": "Adafruit nRF52",
-          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nRF52-0.2.1.tar.bz2",
-          "checksum": "SHA-256:32517ce354bd6427e0046dc7d858e0775198f8b51e1a90b23948d78fe6b65169",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.5.0.tar.bz2",
+          "checksum": "SHA-256:438bf29e5fd7738972270482e7cd800658f99376b882a74bb66270100e0eea5f",
           "help": {
             "online": "https://forums.adafruit.com"
           },
-          "version": "0.2.1",
+          "version": "0.5.0",
           "architecture": "nrf52",
-          "archiveFileName": "adafruit-nRF52-0.2.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.5.0.tar.bz2",
           "boards": [
             {
               "name": "Adafruit Bluefruit nRF52 Feather"
@@ -1366,7 +1341,7 @@
               "name": "gcc-arm-none-eabi"
             }
           ],
-          "size": "15014596"
+          "size": "15086006"
         }
       ],
       "tools": [
@@ -1375,28 +1350,28 @@
           "name": "gcc-arm-none-eabi",
           "systems": [
             {
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
               "checksum": "MD5:603bcce8e59683ac27054b3197a53254",
               "host": "i386-apple-darwin11",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
               "size": "96372129"
             },
             {
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
               "host": "i686-linux-gnu",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "size": "92811866"
             },
             {
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
               "host": "x86_64-pc-linux-gnu",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "size": "92811866"
             },
             {
-              "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
               "checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
               "host": "i686-mingw32",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
