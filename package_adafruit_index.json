@@ -1429,6 +1429,11 @@
               "packager": "adafruit",
               "version": "5_2-2015q4",
               "name": "gcc-arm-none-eabi"
+            },
+            {
+              "packager": "adafruit",
+              "version": "9.4.0",
+              "name": "nrfjprog"
             }
           ],
           "size": "23355441"
@@ -1466,6 +1471,40 @@
               "host": "i686-mingw32",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
               "size": "102981732"
+            }
+          ]
+        },
+        {
+          "version": "9.4.0",
+          "name": "nrfjprog",
+          "systems": [
+            {
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2",
+              "checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
+              "size": "362222"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2",
+              "checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
+              "size": "177428"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2",
+              "checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
+              "size": "190020"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2",
+              "checksum": "MD5:8352392ae0272173e1508d1218f51671",
+              "host": "i686-mingw32",
+              "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
+              "size": "851576"
             }
           ]
         }
