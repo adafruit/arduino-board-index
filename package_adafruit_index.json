@@ -1320,6 +1320,36 @@
         },
         {
           "category": "Adafruit",
+          "name": "Adafruit WICED",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-wiced-0.6.5.tar.bz2",
+          "checksum": "SHA-256:8595e6777ec55147a701fd5fbe6383e9677e0ba4ff0da85274fe87b993030f5d",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "version": "0.6.5",
+          "architecture": "wiced",
+          "archiveFileName": "adafruit-wiced-0.6.5.tar.bz2",
+          "boards": [
+            {
+              "name": "Adafruit WICED Feather"
+            }
+          ],
+          "size": "60052272",
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "adafruit",
+              "version": "1.0.0",
+              "name": "wiced_dfu"
+            }
+          ]
+        },
+        {
+          "category": "Adafruit",
           "help": {
             "online": "https://forums.adafruit.com"
           },
@@ -1615,6 +1645,40 @@
               "host": "i686-mingw32",
               "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
               "size": "851576"
+            }
+          ]
+        },
+		    {
+          "version": "1.0.0",
+          "name": "wiced_dfu",
+          "systems": [
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz",
+              "checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
+              "size": "28295"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz",
+              "checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
+              "size": "28667"
+            },
+			{
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz",
+              "checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
+              "size": "3742"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz",
+              "checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
+              "host": "i686-mingw32",
+              "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
+              "size": "525710"
             }
           ]
         }
