@@ -1350,6 +1350,36 @@
         },
         {
           "category": "Adafruit",
+          "name": "Adafruit WICED",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-wiced-0.6.6.tar.bz2",
+          "checksum": "SHA-256:abf96452e448e0ac82b4c86c646c727bdc0f4953b50f4766a1384c97e5a8681e",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "version": "0.6.6",
+          "architecture": "wiced",
+          "archiveFileName": "adafruit-wiced-0.6.6.tar.bz2",
+          "boards": [
+            {
+              "name": "Adafruit WICED Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "adafruit",
+              "version": "1.0.0",
+              "name": "wiced_dfu"
+            }
+          ],
+          "size": "60215425"
+        },        
+        {
+          "category": "Adafruit",
           "help": {
             "online": "https://forums.adafruit.com"
           },
