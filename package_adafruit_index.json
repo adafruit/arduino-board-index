@@ -1647,7 +1647,37 @@
             }
           ],
           "size": "30180997"
-        },        
+        },
+        {
+          "category": "Adafruit",
+          "name": "Adafruit nRF52",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.8.2.tar.bz2",
+          "checksum": "SHA-256:fe8479ec08642ffc482e3f192b51ef3282b3168159f3353182be9cd79ffdcf9a",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "version": "0.8.2",
+          "architecture": "nrf52",
+          "archiveFileName": "adafruit-nrf52-0.8.2.tar.bz2",
+          "boards": [
+            {
+              "name": "Adafruit Bluefruit nRF52 Feather"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "version": "5_2-2015q4",
+              "name": "gcc-arm-none-eabi"
+            },
+            {
+              "packager": "adafruit",
+              "version": "9.4.0",
+              "name": "nrfjprog"
+            }
+          ],
+          "size": "30488307"
+        },
         {
           "category": "Adafruit",
           "help": {
