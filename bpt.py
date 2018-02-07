@@ -23,8 +23,8 @@
 # IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 import json
-import SimpleHTTPServer
-import SocketServer
+import http.server
+import socketserver
 
 from bpt_model import *
 import click
@@ -111,12 +111,13 @@ def check_updates(ctx):
         version = package.get_version()
         click.echo('- {0}'.format(name))
         # Get all the associated packages in the board index.
-        index_packages = ctx.obj.board_index.get_platforms(parent, name)
+        index_packages = list(ctx.obj.board_index.get_platforms(parent, name))
         # Skip to the next package if nothing was found in the board index for this package.
         if len(index_packages) == 0:
             click.echo('    Not found in board index!')
             continue
         # Find the most recent version in the index packages.
+        #print(index_packages)
         latest = max(map(lambda x: parse_version(x.get('version', '')), index_packages))
         click.echo('    latest index version = {0}'.format(str(latest)))
         # Warn if the latest published package is older than the current package
@@ -162,8 +163,8 @@ def update_index(ctx, package_name, force, output_board_index, output_board_dir)
     # has a newer version than in the index.
     if not force:
         # Get all the associated packages in the board index.
-        index_packages = ctx.obj.board_index.get_platforms(package.get_parent(),
-            package.get_name())
+        index_packages = list(ctx.obj.board_index.get_platforms(package.get_parent(),
+            package.get_name()))
         # Do version check if packages were found in the index.
         if len(index_packages) > 0:
             # Find the most recent version in the index packages.
@@ -234,7 +235,7 @@ def test_server(ctx, url_transform, port):
     with open(test_index, 'w') as bi:
         bi.write(ctx.obj.board_index.write_json())
     try:
-        server = SocketServer.TCPServer(('', port), SimpleHTTPServer.SimpleHTTPRequestHandler)
+        server = socketserver.TCPServer(('', port), http.server.SimpleHTTPRequestHandler)
         click.echo('Source board index file: {0}'.format(ctx.obj.board_index_file))
         click.echo('Test server listening at: http://localhost:{0}'.format(port))
         click.echo('Configure Arduino to use the following board package URL:')
