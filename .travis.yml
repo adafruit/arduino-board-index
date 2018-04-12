@@ -28,8 +28,8 @@ script:
 
 
 branches:
-  only:
-    - gh-pages
+#  only:
+#    - gh-pages
 notifications:
   email:
     on_success: change
