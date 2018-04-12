@@ -2094,6 +2094,75 @@
               "version": "4.0.0-atmel"
             }
           ]
+        },
+        {
+          "name": "Adafruit SAMD Boards",
+          "architecture": "samd",
+          "version": "1.1.0",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.1.0.tar.bz2",
+          "archiveFileName": "adafruit-samd-1.1.0.tar.bz2",
+          "checksum": "SHA-256:d66e6f3a42f5c8c43dfbcce1876c9dab3a4bc314fbf9c34ae669bf0ef4bcff0f",
+          "size": "21336008",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            },
+            {
+              "name": "Adafruit Feather M0 Express"
+            },
+            {
+              "name": "Adafruit Metro M0 Express"
+            },
+            {
+              "name": "Adafruit Circuit Playground Express"
+            },
+            {
+              "name": "Adafruit Gemma M0"
+            },
+            {
+              "name": "Adafruit Trinket M0"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M0"
+            },
+            {
+              "name": "Adafruit pIRkey M0"
+            },
+            {
+              "name": "Adafruit Metro M4"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
         }
       ],
       "tools": [
