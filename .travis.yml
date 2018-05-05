@@ -25,6 +25,7 @@ script:
   - build_platform adafruit:samd:adafruit_gemma_m0
   - build_platform adafruit:samd:adafruit_trinket_m0
   - build_platform adafruit:samd:adafruit_itsybitsy_m0
+  - build_platform adafruit:samd:adafruit_metro_m4
 
 
 branches:
