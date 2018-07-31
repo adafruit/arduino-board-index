@@ -2467,6 +2467,12 @@
               "name": "Adafruit Metro"
             },
             {
+              "name": "Adafruit Metro Mini"
+            },
+            {
+              "name": "Adafruit ItsyBitsy 32u4"
+            },
+            {
               "name": "Adafruit Pro Trinket 5V/16MHz (USB)"
             },
             {
