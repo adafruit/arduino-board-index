@@ -2437,6 +2437,61 @@
             }
           ],
           "size": "22388787"
+        },
+        {
+          "name": "Adafruit AVR Boards",
+          "architecture": "avr",
+          "version": "1.4.13",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-avr-1.4.13.tar.bz2",
+          "archiveFileName": "adafruit-avr-1.4.13.tar.bz2",
+          "checksum": "SHA-256:84e75b705a36bf3ce08d56238846bb81d45a1dd337a290d16e2343186cceeb75",
+          "size": "644224",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Flora"
+            },
+            {
+              "name": "Adafruit Gemma 8MHz"
+            },
+            {
+              "name": "Adafruit Bluefruit Micro"
+            },
+            {
+              "name": "Adafruit Feather 32u4"
+            },
+            {
+              "name": "Adafruit Metro"
+            },
+            {
+              "name": "Adafruit Metro Mini"
+            },
+            {
+              "name": "Adafruit ItsyBitsy 32u4"
+            },
+            {
+              "name": "Adafruit Pro Trinket 5V/16MHz (USB)"
+            },
+            {
+              "name": "Adafruit Pro Trinket 3V/12MHz (USB)"
+            },
+            {
+              "name": "Adafruit Pro Trinket 5V/16MHz (FTDI)"
+            },
+            {
+              "name": "Adafruit Pro Trinket 3V/12MHz (FTDI)"
+            },
+            {
+              "name": "Adafruit Trinket 8MHz"
+            },
+            {
+              "name": "Adafruit Trinket 16MHz"
+            }
+          ],
+          "toolsDependencies": []
         }
       ]
     },
