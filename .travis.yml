@@ -9,6 +9,7 @@ git:
   quiet: true
 
 before_install:
+  - rm -rf ~/.arduino15/packages/adafruit/hardware/samd
   - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
 script:
   - build_platform adafruit:avr:flora8
