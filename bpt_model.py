@@ -148,11 +148,12 @@ class DirectoryBoardPackage(BoardPackage):
         SHA256 hash).
         """
         # Create .tar.bz2 archive of the package directory.
+        # Put files inside a folder with same name as archive (minus extension)
+        arcname = os.path.basename(target)[:-len('.tar.bz2')]
         with tarfile.open(target, 'w:bz2') as archive:
             archive.add(self._directory,
-                # Put files inside a folder with same name as archive (minus extension)
-                arcname=os.path.basename(target)[:-len('.tar.bz2')],
-                exclude=lambda x: x.startswith('.git'))  # Don't add .git folder!
+                arcname=arcname,
+                filter=lambda x: None if x.name.startswith(arcname + '/.git') else x)  # Don't add .git folder!
         # Get the size of the archive.
         size = os.stat(target).st_size
         # Generate a SHA256 hash of the archive.
