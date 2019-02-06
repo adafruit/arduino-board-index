@@ -3112,6 +3112,95 @@
           ]
         },
         {
+          "name": "Adafruit SAMD Boards",
+          "architecture": "samd",
+          "version": "1.2.10",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.2.9.tar.bz2",
+          "archiveFileName": "adafruit-samd-1.2.9.tar.bz2",
+          "checksum": "SHA-256:28f6277176443679a019f6da716dd7df2d5190d6504e464805f871348645b83c",
+          "size": "10472970",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            },
+            {
+              "name": "Adafruit Feather M0 Express"
+            },
+            {
+              "name": "Adafruit Metro M0 Express"
+            },
+            {
+              "name": "Adafruit Circuit Playground Express"
+            },
+            {
+              "name": "Adafruit Gemma M0"
+            },
+            {
+              "name": "Adafruit Hallowing M0"
+            },
+            {
+              "name": "Adafruit Trinket M0"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M0"
+            },
+            {
+              "name": "Adafruit pIRkey M0"
+            },
+            {
+              "name": "Adafruit Feather M4"
+            },
+            {
+              "name": "Adafruit Metro M4"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M4"
+            },
+            {
+              "name": "Adafruit Grand Central M4"
+            },
+            {
+              "name": "Adafruit Trellis M4"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
+        {
           "name": "Adafruit nRF52",
           "architecture": "nrf52",
           "version": "0.9.2",
