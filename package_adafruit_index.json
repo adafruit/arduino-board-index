@@ -3243,12 +3243,12 @@
         {
           "name": "Adafruit nRF52",
           "architecture": "nrf52",
-          "version": "0.10.0",
+          "version": "0.10.1",
           "category": "Adafruit",
-          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.10.0.tar.bz2",
-          "archiveFileName": "adafruit-nrf52-0.10.0.tar.bz2",
-          "checksum": "SHA-256:2cc0da5ca06b1025d28a17d9368f8a1bcfc1005ef59ff73936994b3f9826da1f",
-          "size": "17484998",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.10.1.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.10.1.tar.bz2",
+          "checksum": "SHA-256:79e8738df48652f4425c83b945a3a5f53d96146ee0f64299f79dd900d0807288",
+          "size": "17558841",
           "help": {
             "online": "https://forums.adafruit.com"
           },
