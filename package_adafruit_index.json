@@ -3542,6 +3542,11 @@
             {
               "packager": "arduino",
               "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
               "version": "1.8.0-48-gb176eee"
             },
             {
