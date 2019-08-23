@@ -3973,7 +3973,16 @@
           },
           "boards": [
             {
-              "name": "Adafruit Bluefruit nRF52 Feather"
+               "name":"Adafruit Feather nRF52832"
+            },
+            {
+               "name":"Adafruit Feather nRF52840 Express"
+            },
+            {
+               "name":"Adafruit Circuit Playground Bluefruit"
+            },
+            {
+               "name":"Adafruit Metro nRF52840 Express"
             }
           ],
           "toolsDependencies": [
