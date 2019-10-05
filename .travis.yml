@@ -38,7 +38,7 @@ script:
   - build_platform adafruit:samd:adafruit_feather_m4:speed=120
   - build_platform adafruit:samd:adafruit_trellis_m4:speed=120
   - build_platform adafruit:samd:adafruit_pyportal_m4:speed=120
-  - build_platform adafruit:samd:adafruit_pyportal_titano_m4:speed=120
+  - build_platform adafruit:samd:adafruit_pyportal_m4_titano:speed=120
   - build_platform adafruit:samd:adafruit_pybadge_m4:speed=120
   - build_platform adafruit:samd:adafruit_metro_m4_airliftlite:speed=120
   - build_platform adafruit:samd:adafruit_pygamer_m4:speed=120
