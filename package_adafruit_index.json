@@ -4162,6 +4162,9 @@
             },
             {
               "name": "Adafruit Metro nRF52840 Express"
+            },
+            {
+              "name": "Adafruit ItsyBitsy nRF52840"
             }
           ],
           "toolsDependencies": [
