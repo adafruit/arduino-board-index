@@ -172,9 +172,11 @@ class GitBoardPackage(DirectoryBoardPackage):
         """
         # Create a temporary directory to clone the repository.
         self._local_dir = tempfile.mkdtemp()
-        # Clone the repo to the temp directory.
+        # Clone the repo and its submodules to the temp directory.
         logger.debug('GitBoardPackage cloning repo {0} to directory {1}'.format(repo, self._local_dir))
-        Repo.clone_from(repo, self._local_dir)
+        cloned_repo = Repo.clone_from(repo, self._local_dir)
+        cloned_repo.submodule_update(recursive=False)
+
         # Find path to repo dir inside cloned directory.
         target_dir = self._local_dir
         if repo_dir is not None:
