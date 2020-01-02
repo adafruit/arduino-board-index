@@ -4,12 +4,10 @@ on: [pull_request, push]
 
 jobs:
   build:
-    strategy:
-      fail-fast: false
-      matrix:
-        arduino-platform: ['adafruit:samd:adafruit_feather_m0']
-
     runs-on: ubuntu-latest
+    env:
+      SKETCH: examples/test/test.ino
+
     steps:
     - name: Setup Python
       uses: actions/setup-python@v1
@@ -34,13 +32,15 @@ jobs:
         LIB_DEPS: FlashStorage SD
       run: |
         BSP_URL=`echo https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json`
+        echo $BSP_URL
         arduino-cli config init
         arduino-cli core update-index
         arduino-cli core update-index --additional-urls $BSP_URL        
         arduino-cli core install arduino:samd --additional-urls $BSP_URL
         arduino-cli core install adafruit:samd --additional-urls $BSP_URL
-        # Repalce release BSP with our code
+        arduino-cli core install adafruit:avr --additional-urls $BSP_URL
+        arduino-cli core install adafruit:nrf52 --additional-urls $BSP_URL
         #arduino-cli lib install $LIB_DEPS
 
     - name: Build examples
-      run: python3 extras/build_all.py ${{ matrix.arduino-platform }}
+      run: arduino-cli compile --fqbn adafruit:samd:adafruit_feather_m0 $SKETCH
