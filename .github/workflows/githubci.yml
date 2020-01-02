@@ -33,7 +33,7 @@ jobs:
       env:
         LIB_DEPS: FlashStorage SD
       run: |
-        BSP_URL = https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json
+        BSP_URL=`echo https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json`
         arduino-cli config init
         arduino-cli core update-index
         arduino-cli core update-index --additional-urls $BSP_URL        
