@@ -15,6 +15,9 @@ jobs:
     - name: Testing
       run: |
         echo $GITHUB_REF
+        echo $GITHUB_SHA
+        echo $GITHUB_HEAD_REF
+        echo $GITHUB_BASE_REF
         exit 1
 
     - name: Setup Python
