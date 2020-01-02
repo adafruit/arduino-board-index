@@ -11,14 +11,6 @@ jobs:
 
     runs-on: ubuntu-latest
     
-    steps:
-    - name: Testing
-      run: |
-        echo $GITHUB_REF
-        echo $GITHUB_SHA
-        echo https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json
-        exit 1
-
     - name: Setup Python
       uses: actions/setup-python@v1
       with:
@@ -39,20 +31,16 @@ jobs:
         
     - name: Install BSP and Libraries
       env:
-        BSP_URL: https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
-        BSP_PATH: .arduino15/packages/adafruit/hardware/samd
         LIB_DEPS: FlashStorage SD
       run: |
+        BSP_URL = https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json
         arduino-cli config init
         arduino-cli core update-index
         arduino-cli core update-index --additional-urls $BSP_URL        
         arduino-cli core install arduino:samd --additional-urls $BSP_URL
         arduino-cli core install adafruit:samd --additional-urls $BSP_URL
         # Repalce release BSP with our code
-        BSP_VERSION=`eval ls $HOME/$BSP_PATH`
-        rm -r $HOME/$BSP_PATH/*
-        ln -s $GITHUB_WORKSPACE $HOME/$BSP_PATH/$BSP_VERSION
-        arduino-cli lib install $LIB_DEPS
+        #arduino-cli lib install $LIB_DEPS
 
     - name: Build examples
       run: python3 extras/build_all.py ${{ matrix.arduino-platform }}
