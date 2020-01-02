@@ -16,8 +16,7 @@ jobs:
       run: |
         echo $GITHUB_REF
         echo $GITHUB_SHA
-        echo $GITHUB_HEAD_REF
-        echo $GITHUB_BASE_REF
+        echo https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json
         exit 1
 
     - name: Setup Python
