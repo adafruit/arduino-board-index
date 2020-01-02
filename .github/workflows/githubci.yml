@@ -75,9 +75,10 @@ jobs:
         echo $BSP_URL
         arduino-cli config init
         arduino-cli core update-index
-        arduino-cli core update-index --additional-urls $BSP_URL        
+        arduino-cli core update-index --additional-urls $BSP_URL   
         arduino-cli core install arduino:samd --additional-urls $BSP_URL
         arduino-cli core install adafruit:samd --additional-urls $BSP_URL
+        arduino-cli core install arduino:avr --additional-urls $BSP_URL
         arduino-cli core install adafruit:avr --additional-urls $BSP_URL
         arduino-cli core install adafruit:nrf52 --additional-urls $BSP_URL
         #arduino-cli lib install $LIB_DEPS
