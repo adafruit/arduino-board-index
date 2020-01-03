@@ -5,48 +5,6 @@ on: [pull_request, push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      SKETCH: examples/test/test.ino
-    strategy:
-      fail-fast: false
-      matrix:
-        board:
-        - adafruit:avr:flora8
-        - adafruit:avr:bluefruitmicro
-        - adafruit:avr:gemma
-        - adafruit:avr:metro
-        - adafruit:avr:trinket3
-        - adafruit:avr:trinket5
-        - adafruit:avr:protrinket5
-        - adafruit:avr:protrinket5ftdi
-        - adafruit:avr:protrinket3
-        - adafruit:avr:protrinket3ftdi
-        - adafruit:avr:feather328p
-        - adafruit:avr:circuitplay32u4cat
-        - adafruit:avr:itsybitsy32u4_5V
-        - adafruit:avr:itsybitsy32u4_3V
-        - adafruit:avr:adafruit32u4
-        - adafruit:samd:adafruit_feather_m0
-        - adafruit:samd:adafruit_feather_m0_express
-        - adafruit:samd:adafruit_metro_m0
-        - adafruit:samd:adafruit_circuitplayground_m0
-        - adafruit:samd:adafruit_gemma_m0
-        - adafruit:samd:adafruit_trinket_m0
-        - adafruit:samd:adafruit_itsybitsy_m0
-        - adafruit:samd:adafruit_hallowing
-        - adafruit:samd:adafruit_crickit_m0
-        - adafruit:samd:adafruit_metro_m4:speed=120
-        - adafruit:samd:adafruit_grandcentral_m4:speed=120
-        - adafruit:samd:adafruit_itsybitsy_m4:speed=120
-        - adafruit:samd:adafruit_feather_m4:speed=120
-        - adafruit:samd:adafruit_trellis_m4:speed=120
-        - adafruit:samd:adafruit_pyportal_m4:speed=120
-        - adafruit:samd:adafruit_pyportal_m4_titano:speed=120
-        - adafruit:samd:adafruit_pybadge_m4:speed=120
-        - adafruit:samd:adafruit_metro_m4_airliftlite:speed=120
-        - adafruit:samd:adafruit_pygamer_m4:speed=120
-        - adafruit:samd:adafruit_monster_m4sk:speed=120
-        - adafruit:samd:adafruit_hallowing_m4:speed=120
 
     steps:
     - name: Setup Python
@@ -68,8 +26,6 @@ jobs:
         echo "::add-path::$GITHUB_WORKSPACE/bin"
         
     - name: Install BSP and Libraries
-      env:
-        LIB_DEPS: FlashStorage SD
       run: |
         BSP_URL=`echo https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json`
         echo $BSP_URL
@@ -81,7 +37,6 @@ jobs:
         arduino-cli core install arduino:avr --additional-urls $BSP_URL
         arduino-cli core install adafruit:avr --additional-urls $BSP_URL
         arduino-cli core install adafruit:nrf52 --additional-urls $BSP_URL
-        #arduino-cli lib install $LIB_DEPS
 
     - name: Build examples
-      run: arduino-cli compile --fqbn ${{ matrix.board }} $SKETCH
+      run: python3 examples/build_all.py
