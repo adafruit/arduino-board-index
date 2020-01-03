@@ -1,0 +1,43 @@
+name: Build
+
+on: [pull_request, push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+        
+    - name: Checkout code
+      uses: actions/checkout@v2
+        
+    - name: Install Arduino CLI and Tools
+      run: |
+        pip3 install adafruit-nrfutil
+        # make all our directories we need for files and libraries
+        mkdir $HOME/.arduino15
+        mkdir $HOME/.arduino15/packages
+        mkdir $HOME/Arduino
+        mkdir $HOME/Arduino/libraries
+        curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+        echo "::add-path::$GITHUB_WORKSPACE/bin"
+        
+    - name: Install BSP and Libraries
+      run: |
+        BSP_URL=`echo https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json`
+        echo $BSP_URL
+        arduino-cli config init
+        arduino-cli core update-index
+        arduino-cli core update-index --additional-urls $BSP_URL   
+        arduino-cli core install arduino:samd --additional-urls $BSP_URL
+        arduino-cli core install adafruit:samd --additional-urls $BSP_URL
+        arduino-cli core install arduino:avr --additional-urls $BSP_URL
+        arduino-cli core install adafruit:avr --additional-urls $BSP_URL
+        arduino-cli core install adafruit:nrf52 --additional-urls $BSP_URL
+
+    - name: Build examples
+      run: python3 examples/build_all.py
