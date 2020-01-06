@@ -1,0 +1,24 @@
+name: Trigger Libraries
+
+on:
+  push:
+    branches: gh-pages
+    paths: 'package_adafruit_index.json'
+
+jobs:
+  trigger-libraries:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Trigger Script
+      env:
+        GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+      run: python3 examples/trigger_libraries.py
+
