@@ -4,9 +4,35 @@ import sys
 import subprocess
 import time
 
+# sorted alphabetically
 all_libs = [
-    'Adafruit_TinyUSB_Arduino',
+    'Adafruit_9DOF',
+    'Adafruit_ADXL343',
+    'Adafruit_Arcada',
+    'Adafruit_BME280_Library',
+    'Adafruit_BMP280_Library',
+    'Adafruit_BusIO',
+    'Adafruit_EPD',
+    'Adafruit-GFX-Library',
+    'Adafruit_ICM20649',
+    'Adafruit_ILI9341',
+    'Adafruit_ImageReader',
+    'Adafruit_INA260',
+    'Adafruit_LIS2MDL',
+    'Adafruit_LIS3MDL',
+    'Adafruit_LSM303_Accel',
+    'Adafruit_LSM303DLH_Mag',
+    'Adafruit_LSM6DS',
+    'Adafruit_MAX31865',
+    'Adafruit_MCP4728',
+    'Adafruit_MLX90640',
+    'Adafruit_MSA301',
+    'Adafruit_NeoPixel_ZeroDMA',
+    'Adafruit_Sensor',
+    'Adafruit_SensorLab',
     'Adafruit_SPIFlash',
+    'Adafruit-ST7735-Library',
+    'Adafruit_TinyUSB_Arduino',
 ]
 
 GH_REPO_TOKEN = os.environ["GH_REPO_TOKEN"]
