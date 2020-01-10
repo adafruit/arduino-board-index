@@ -28,7 +28,8 @@ jobs:
         
     - name: Install BSP and Libraries
       run: |
-        BSP_URL=`echo https://raw.githubusercontent.com/$GITHUB_REPOSITORY/$GITHUB_SHA/package_adafruit_index.json`
+        # Run local test server
+        python3 bpt.py test-server & BSP_URL=`echo https://localhost:8000/package_test_index.json`
         echo $BSP_URL
         arduino-cli config init
         arduino-cli core update-index
