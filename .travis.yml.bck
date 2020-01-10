@@ -1,0 +1,54 @@
+language: c
+sudo: false
+
+git:
+  depth: false
+  quiet: true
+
+before_install:
+  - source <(curl -SLs https://raw.githubusercontent.com/adafruit/travis-ci-arduino/master/install.sh)
+script:
+  - build_platform adafruit:avr:flora8
+  - build_platform adafruit:avr:bluefruitmicro
+  - build_platform adafruit:avr:gemma
+  - build_platform adafruit:avr:metro
+  - build_platform adafruit:avr:trinket3
+  - build_platform adafruit:avr:trinket5
+  - build_platform adafruit:avr:protrinket5
+  - build_platform adafruit:avr:protrinket5ftdi
+  - build_platform adafruit:avr:protrinket3
+  - build_platform adafruit:avr:protrinket3ftdi
+  - build_platform adafruit:avr:feather328p
+  - build_platform adafruit:avr:circuitplay32u4cat
+  - build_platform adafruit:avr:itsybitsy32u4_5V
+  - build_platform adafruit:avr:itsybitsy32u4_3V
+  - build_platform adafruit:avr:adafruit32u4
+  - build_platform adafruit:samd:adafruit_feather_m0
+  - build_platform adafruit:samd:adafruit_feather_m0_express
+  - build_platform adafruit:samd:adafruit_metro_m0
+  - build_platform adafruit:samd:adafruit_circuitplayground_m0
+  - build_platform adafruit:samd:adafruit_gemma_m0
+  - build_platform adafruit:samd:adafruit_trinket_m0
+  - build_platform adafruit:samd:adafruit_itsybitsy_m0
+  - build_platform adafruit:samd:adafruit_hallowing
+  - build_platform adafruit:samd:adafruit_crickit_m0
+  - build_platform adafruit:samd:adafruit_metro_m4:speed=120
+  - build_platform adafruit:samd:adafruit_grandcentral_m4:speed=120
+  - build_platform adafruit:samd:adafruit_itsybitsy_m4:speed=120
+  - build_platform adafruit:samd:adafruit_feather_m4:speed=120
+  - build_platform adafruit:samd:adafruit_trellis_m4:speed=120
+  - build_platform adafruit:samd:adafruit_pyportal_m4:speed=120
+  - build_platform adafruit:samd:adafruit_pyportal_m4_titano:speed=120
+  - build_platform adafruit:samd:adafruit_pybadge_m4:speed=120
+  - build_platform adafruit:samd:adafruit_metro_m4_airliftlite:speed=120
+  - build_platform adafruit:samd:adafruit_pygamer_m4:speed=120
+  - build_platform adafruit:samd:adafruit_monster_m4sk:speed=120
+  - build_platform adafruit:samd:adafruit_hallowing_m4:speed=120
+
+branches:
+  only:
+    - gh-pages
+notifications:
+  email:
+    on_success: change
+    on_failure: change
