@@ -18,7 +18,6 @@ jobs:
     - name: Install Arduino CLI and Tools
       run: |
         pip3 install adafruit-nrfutil
-        pip3 install gitpython
         # make all our directories we need for files and libraries
         mkdir $HOME/.arduino15
         mkdir $HOME/.arduino15/packages
@@ -29,8 +28,10 @@ jobs:
         
     - name: Install BSP and Libraries
       run: |
+        # Replace url with localhost
+        sed  -i 's/https:\/\/adafruit.github.io\/arduino-board-index/http:\/\/localhost:8000/g' package_adafruit_index.json
         # Run local test server
-        python3 bpt.py test-server & BSP_URL=`echo https://localhost:8000/package_test_index.json`
+        python3 -m http.server & BSP_URL=`echo http://localhost:8000/package_adafruit_index.json`
         echo $BSP_URL
         arduino-cli config init
         arduino-cli core update-index
