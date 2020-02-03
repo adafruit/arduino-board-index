@@ -4909,6 +4909,155 @@
               "version": "9.4.0"
             }
           ]
+        },
+        {
+          "name": "Adafruit SAMD Boards",
+          "architecture": "samd",
+          "version": "1.5.10",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.5.10.tar.bz2",
+          "archiveFileName": "adafruit-samd-1.5.10.tar.bz2",
+          "checksum": "SHA-256:ad9a2c2f3b8977cf4a935a70f19edf0162348ff053208aef4a2183afed2fb625",
+          "size": "4355762",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            },
+            {
+              "name": "Adafruit Feather M0 Express"
+            },
+            {
+              "name": "Adafruit Metro M0 Express"
+            },
+            {
+              "name": "Adafruit Circuit Playground Express"
+            },
+            {
+              "name": "Adafruit Gemma M0"
+            },
+            {
+              "name": "Adafruit Trinket M0"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M0"
+            },
+            {
+              "name": "Adafruit pIRkey M0"
+            },
+            {
+              "name": "Adafruit Metro M4"
+            },
+            {
+              "name": "Adafruit Grand Central M4"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M4"
+            },
+            {
+              "name": "Adafruit Grand Central M4"
+            },
+            {
+              "name": "Adafruit Feather M4 Express"
+            },
+            {
+              "name": "Adafruit Hallowing M0"
+            },
+            {
+              "name": "Adafruit NeoTrellis M4"
+            },
+            {
+              "name": "Adafruit PyPortal M4"
+            },
+            {
+              "name": "Adafruit PyBadge M4"
+            },
+            {
+              "name": "Adafruit Metro M4 AirLift"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
+        {
+          "name": "Adafruit nRF52",
+          "architecture": "nrf52",
+          "version": "0.18.0",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.18.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.18.0.tar.bz2",
+          "checksum": "SHA-256:c4c29e041fc1d58be0cf21bb2d0e99e3649a40746ae20544a2f16a5d6dba6751",
+          "size": "18263802",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather nRF52832"
+            },
+            {
+              "name": "Adafruit Feather nRF52840 Express"
+            },
+            {
+              "name": "Adafruit Feather Bluefruit Sense"
+            },
+            {
+              "name": "Adafruit Circuit Playground Bluefruit"
+            },
+            {
+              "name": "Adafruit Metro nRF52840 Express"
+            },
+            {
+              "name": "Adafruit ItsyBitsy nRF52840"
+            },
+            {
+              "name": "Adafruit CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
         }
       ]
     },
