@@ -5058,6 +5058,54 @@
               "version": "9.4.0"
             }
           ]
+        },
+        {
+          "name": "Adafruit nRF52",
+          "architecture": "nrf52",
+          "version": "0.18.5",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.18.5.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-0.18.5.tar.bz2",
+          "checksum": "SHA-256:b53377374c03feb7a5295beaa450235d09c2818dadaff5d6020a762f1fbd70b1",
+          "size": "18555924",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather nRF52832"
+            },
+            {
+              "name": "Adafruit Feather nRF52840 Express"
+            },
+            {
+              "name": "Adafruit Feather nRF52840 Sense"
+            },
+            {
+              "name": "Adafruit Circuit Playground Bluefruit"
+            },
+            {
+              "name": "Adafruit Metro nRF52840 Express"
+            },
+            {
+              "name": "Adafruit ItsyBitsy nRF52840"
+            },
+            {
+              "name": "Adafruit CLUE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            }
+          ]
         }
       ]
     },
