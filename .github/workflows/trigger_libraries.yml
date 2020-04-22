@@ -20,5 +20,5 @@ jobs:
     - name: Trigger Script
       env:
         GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
-      run: python3 examples/trigger_libraries.py
+      run: python3 trigger_libraries.py
 
