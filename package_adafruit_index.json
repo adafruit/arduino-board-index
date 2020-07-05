@@ -5730,8 +5730,8 @@
           "category": "Adafruit",
           "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-0.20.5.tar.bz2",
           "archiveFileName": "adafruit-nrf52-0.20.5.tar.bz2",
-          "checksum": "SHA-256:7e99232e5e580fe6200d3e6de687edbd2c757aeb80f31a9cca40a33f0f2b4ba9",
-          "size": "19073000",
+          "checksum": "SHA-256:71f998d7b3a3594d26980896dc75881666a64b876c319c555083a58e35c4e341",
+          "size": "19169093",
           "help": {
             "online": "https://forums.adafruit.com"
           },
