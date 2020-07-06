@@ -4,6 +4,61 @@
       "websiteURL": "https://adafruit.com",
       "tools": [
         {
+          "name": "CMSIS",
+          "version": "5.4.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/ARM-software/CMSIS_5/archive/5.4.0.tar.gz",
+              "archiveFileName": "CMSIS_5-5.4.0-adafruit.tar.gz",
+              "checksum": "SHA-256:93d09907ceb23a520ef65e6b5014d2e866efa6b7f5fe5d8828b29bbc54dec697",
+              "size": "153772853"
+            }
+          ]
+        },
+        {
           "name": "arm-none-eabi-gcc",
           "version": "9-2019q4",
           "systems": [
