@@ -30,7 +30,7 @@ all_boards = [
     'adafruit:avr:itsybitsy32u4_5V',
     'adafruit:avr:itsybitsy32u4_3V',
     'adafruit:avr:adafruit32u4',
-    # SAMD Boards
+    # SAMD M0 Boards
     'adafruit:samd:adafruit_feather_m0',
     'adafruit:samd:adafruit_feather_m0_express',
     'adafruit:samd:adafruit_metro_m0',
@@ -40,10 +40,12 @@ all_boards = [
     'adafruit:samd:adafruit_itsybitsy_m0',
     'adafruit:samd:adafruit_hallowing',
     'adafruit:samd:adafruit_crickit_m0',
+    # SAMD M4 Boards
     'adafruit:samd:adafruit_metro_m4:speed=120',
     'adafruit:samd:adafruit_grandcentral_m4:speed=120',
     'adafruit:samd:adafruit_itsybitsy_m4:speed=120',
     'adafruit:samd:adafruit_feather_m4:speed=120',
+    'adafruit:samd:adafruit_feather_m4_can:speed=120',
     'adafruit:samd:adafruit_trellis_m4:speed=120',
     'adafruit:samd:adafruit_pyportal_m4:speed=120',
     'adafruit:samd:adafruit_pyportal_m4_titano:speed=120',
