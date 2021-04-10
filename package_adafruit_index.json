@@ -59,6 +59,61 @@
           ]
         },
         {
+          "name": "CMSIS-Atmel",
+          "version": "1.2.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            },
+            {
+              "host": "all",
+              "url": "https://github.com/adafruit/ArduinoModule-CMSIS-Atmel/releases/download/v1.2.1/CMSIS-Atmel-1.2.1.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.1.tar.bz2",
+              "checksum": "SHA-256:2f2928bcf56569913be8deb9c1712e529b75b3efc27eed81d9dfb5cb5f53de28",
+              "size": "2510904"
+            }
+          ]
+        },
+        {
           "name": "arm-none-eabi-gcc",
           "version": "9-2019q4",
           "systems": [
@@ -6590,6 +6645,124 @@
               "packager": "arduino",
               "name": "CMSIS-Atmel",
               "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
+          "name": "Adafruit SAMD Boards",
+          "architecture": "samd",
+          "version": "1.6.7",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.6.7.tar.bz2",
+          "archiveFileName": "adafruit-samd-1.6.7.tar.bz2",
+          "checksum": "SHA-256:d1b3f655bc4b3079c88d0bf9312feb2a5b6d0493518e03525b983eaefdb42e5b",
+          "size": "4472867",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            },
+            {
+              "name": "Adafruit Feather M0 Express"
+            },
+            {
+              "name": "Adafruit Metro M0 Express"
+            },
+            {
+              "name": "Adafruit Circuit Playground Express"
+            },
+            {
+              "name": "Adafruit Gemma M0"
+            },
+            {
+              "name": "Adafruit Trinket M0"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M0"
+            },
+            {
+              "name": "Adafruit pIRkey M0"
+            },
+            {
+              "name": "Adafruit Metro M4"
+            },
+            {
+              "name": "Adafruit Grand Central M4"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M4"
+            },
+            {
+              "name": "Adafruit Feather M4 Express"
+            },
+            {
+              "name": "Adafruit Hallowing M0"
+            },
+            {
+              "name": "Adafruit NeoTrellis M4"
+            },
+            {
+              "name": "Adafruit PyPortal M4"
+            },
+            {
+              "name": "Adafruit PyBadge M4"
+            },
+            {
+              "name": "Adafruit Metro M4 AirLift"
+            },
+            {
+              "name": "Adafruit Matrix Portal M4"
+            },
+            {
+              "name": "Adafruit BLM Badge"
+            },
+            {
+              "name": "Adafruit QT Py"
+            },
+            {
+              "name": "Adafruit Feather M4 CAN"
+            },
+            {
+              "name": "Adafruit Neo Trinkey"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.1"
             },
             {
               "packager": "arduino",
