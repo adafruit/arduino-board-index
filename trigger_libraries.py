@@ -88,4 +88,7 @@ gh_request = 'curl -X POST -H "Authorization: token {}"'.format(GH_REPO_TOKEN) +
 url = 'https://api.github.com/repos/adafruit/{}/dispatches'
 
 for lib in all_libs:
+    print('Trigger {}'.format(lib))
     subprocess.run(gh_request + url.format(lib), shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    # sleep a bit to prevent CI overflow
+    time.sleep(60)
