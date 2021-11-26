@@ -334,6 +334,20 @@
               "size": "851576",
               "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+              "size": "2794097",
+              "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+              "size": "2794097",
+              "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
+              "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
             }
           ],
           "name": "nrfjprog",
@@ -8109,6 +8123,62 @@
           "archiveFileName": "adafruit-nrf52-1.1.0.tar.bz2",
           "checksum": "SHA-256:8d7adbfe36321ad390d6efbdbdc8aba804f188892372ea9b9ea0dcc0ade23056",
           "size": "19670237",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather nRF52832"
+            },
+            {
+              "name": "Adafruit Feather nRF52840 Express"
+            },
+            {
+              "name": "Adafruit Feather nRF52840 Sense"
+            },
+            {
+              "name": "Adafruit Circuit Playground Bluefruit"
+            },
+            {
+              "name": "Adafruit Metro nRF52840 Express"
+            },
+            {
+              "name": "Adafruit ItsyBitsy nRF52840"
+            },
+            {
+              "name": "Adafruit CLUE"
+            },
+            {
+              "name": "Adafruit LED Glasses Driver nRF52840"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            }
+          ]
+        },
+        {
+          "name": "Adafruit nRF52",
+          "architecture": "nrf52",
+          "version": "1.2.0",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-nrf52-1.2.0.tar.bz2",
+          "archiveFileName": "adafruit-nrf52-1.2.0.tar.bz2",
+          "checksum": "SHA-256:26376844651f342211e01afff364fc8d89f7d128252e26185ff7b01088b571dc",
+          "size": "19655415",
           "help": {
             "online": "https://forums.adafruit.com"
           },
