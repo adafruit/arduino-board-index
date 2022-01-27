@@ -30,6 +30,7 @@ all_boards = [
     'adafruit:avr:itsybitsy32u4_5V',
     'adafruit:avr:itsybitsy32u4_3V',
     'adafruit:avr:adafruit32u4',
+    
     # SAMD M0 Boards
     'adafruit:samd:adafruit_feather_m0',
     'adafruit:samd:adafruit_feather_m0_express',
@@ -37,9 +38,18 @@ all_boards = [
     'adafruit:samd:adafruit_circuitplayground_m0',
     'adafruit:samd:adafruit_gemma_m0',
     'adafruit:samd:adafruit_trinket_m0',
+    'adafruit:samd:adafruit_qtpy_m0',    
+    'adafruit:samd:adafruit_neotrinkey_m0',
+    'adafruit:samd:adafruit_rotarytrinkey_m0',
+    'adafruit:samd:adafruit_neokeytrinkey_m0',
+    'adafruit:samd:adafruit_slidetrinkey_m0',
+    'adafruit:samd:adafruit_proxlighttrinkey_m0',
     'adafruit:samd:adafruit_itsybitsy_m0',
+    'adafruit:samd:adafruit_pirkey',    
     'adafruit:samd:adafruit_hallowing',
     'adafruit:samd:adafruit_crickit_m0',
+    'adafruit:samd:adafruit_blm_badge',    
+    
     # SAMD M4 Boards
     'adafruit:samd:adafruit_metro_m4:speed=120',
     'adafruit:samd:adafruit_grandcentral_m4:speed=120',
@@ -51,9 +61,12 @@ all_boards = [
     'adafruit:samd:adafruit_pyportal_m4_titano:speed=120',
     'adafruit:samd:adafruit_pybadge_m4:speed=120',
     'adafruit:samd:adafruit_metro_m4_airliftlite:speed=120',
-    'adafruit:samd:adafruit_pygamer_m4:speed=120',
+    'adafruit:samd:adafruit_pygamer_m4:speed=120',    
+    'adafruit:samd:adafruit_pybadge_airlift_m4:speed=120',    
     'adafruit:samd:adafruit_monster_m4sk:speed=120',
-    'adafruit:samd:adafruit_hallowing_m4:speed=120',
+    'adafruit:samd:adafruit_hallowing_m4:speed=120',    
+    'adafruit:samd:adafruit_matrixportal_m4:speed=120',
+    
     # nRF Boards
     'adafruit:nrf52:feather52832',
     'adafruit:nrf52:feather52840',
