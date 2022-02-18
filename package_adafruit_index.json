@@ -4,6 +4,54 @@
       "websiteURL": "https://adafruit.com",
       "tools": [
         {
+          "name": "bossac",
+          "version": "1.8.0-48-gb176eee",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-i686-w64-mingw32.tar.gz",
+              "checksum": "SHA-256:4523a6897f3dfd673fe821c5cfbac8d6a12782e7a36b312b9ee7d41deec2a10a",
+              "size": "91219"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i386-apple-darwin16.1.0.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-i386-apple-darwin16.1.0.tar.gz",
+              "checksum": "SHA-256:581ecc16021de36638ae14e9e064ffb4a1d532a11502f4252da8bcdf5ce1d649",
+              "size": "39150"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:1347eec67f5b90b785abdf6c8a8aa59129d0c016de7ff9b5ac1690378eacca3c",
+              "size": "37798"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-i486-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-i486-linux-gnu.tar.gz",
+              "checksum": "SHA-256:4c7492f876b8269aa9d8bcaad3aeda31acf1a0292383093b6d9f5f1d23fdafc3",
+              "size": "37374"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.8-48-gb176eee-arm-linux-gnueabihf.tar.gz",
+              "archiveFileName": "bossac-1.8-48-gb176eee-arm-linux-gnueabihf.tar.gz",
+              "checksum": "SHA-256:2001e4a592f3aefd22f213b1ddd6f5d8d5e74bd04080cf1b97c24cbaa81b10ed",
+              "size": "34825"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.9.1-arduino2-linuxaarch64.tar.gz",
+              "archiveFileName": "bossac-1.9.1-arduino2-linuxaarch64.tar.gz",
+              "checksum": "SHA-256:c167fa0ea223966f4d21f5592da3888bcbfbae385be6c5c4e41f8abff35f5cb1",
+              "size": "442853"
+            }
+          ]
+        },
+        {
           "name": "CMSIS",
           "version": "5.7.0",
           "systems": [
@@ -8826,6 +8874,136 @@
             },
             {
               "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
+          "name": "Adafruit SAMD Boards",
+          "architecture": "samd",
+          "version": "1.7.10",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.7.10.tar.bz2",
+          "archiveFileName": "adafruit-samd-1.7.10.tar.bz2",
+          "checksum": "SHA-256:c0f012e81603c42585a59f337ac56abc64a5e8827004fbd4582ace189bb4149d",
+          "size": "4548760",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            },
+            {
+              "name": "Adafruit Feather M0 Express"
+            },
+            {
+              "name": "Adafruit Metro M0 Express"
+            },
+            {
+              "name": "Adafruit Circuit Playground Express"
+            },
+            {
+              "name": "Adafruit Gemma M0"
+            },
+            {
+              "name": "Adafruit Trinket M0"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M0"
+            },
+            {
+              "name": "Adafruit pIRkey M0"
+            },
+            {
+              "name": "Adafruit Metro M4"
+            },
+            {
+              "name": "Adafruit Grand Central M4"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M4"
+            },
+            {
+              "name": "Adafruit Feather M4 Express"
+            },
+            {
+              "name": "Adafruit Hallowing M0"
+            },
+            {
+              "name": "Adafruit NeoTrellis M4"
+            },
+            {
+              "name": "Adafruit PyPortal M4"
+            },
+            {
+              "name": "Adafruit PyBadge M4"
+            },
+            {
+              "name": "Adafruit Metro M4 AirLift"
+            },
+            {
+              "name": "Adafruit Matrix Portal M4"
+            },
+            {
+              "name": "Adafruit BLM Badge"
+            },
+            {
+              "name": "Adafruit QT Py"
+            },
+            {
+              "name": "Adafruit Feather M4 CAN"
+            },
+            {
+              "name": "Adafruit Neo Trinkey"
+            },
+            {
+              "name": "Adafruit Rotary Trinkey"
+            },
+            {
+              "name": "Adafruit NeoKey Trinkey"
+            },
+            {
+              "name": "Adafruit Slide Trinkey"
+            },
+            {
+              "name": "Adafruit ProxLight Trinkey"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "adafruit",
               "name": "bossac",
               "version": "1.8.0-48-gb176eee"
             },
