@@ -14,10 +14,11 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
         # Enable repo scope for repository_dispatch permission
-        gh auth refresh -h github.com -s repo
+        #gh auth refresh -h github.com -s repo
         #libs='Adafruit_ADS1X15 Adafruit_ADXL343'
         libs='Adafruit_ADXL343'
-        for l in $libs
+        for lib in $libs
         do
-          gh api repos/adafruit/$1/dispatches -f event_type='rebuild by arduino-board-index'
+          echo "Triggering $lib"
+          gh api repos/adafruit/$lib/dispatches -f event_type='rebuild by arduino-board-index'
         done
