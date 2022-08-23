@@ -13,8 +13,9 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
-        libs='Adafruit_ADS1X15 Adafruit_ADXL343'
+        #libs='Adafruit_ADS1X15 Adafruit_ADXL343'
+        libs='Adafruit_ADXL343'
         for l in $libs
         do
-          echo $l
+          gh api repos/adafruit/$1/dispatches -f event_type='rebuild by arduino-board-index'
         done
