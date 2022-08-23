@@ -13,7 +13,6 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
-        gh release list
         libs='Adafruit_ADS1X15 Adafruit_ADXL343'
         for l in $libs
         do
