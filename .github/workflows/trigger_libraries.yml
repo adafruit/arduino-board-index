@@ -15,10 +15,10 @@ jobs:
     - name: Trigger Script
       env:
         GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
-        libs:
-          - Adafruit_ADS1X15
-          - Adafruit_ADS1X15
       run: |
         gh release list
-        echo $libs
-
+        libs='Adafruit_ADS1X15 Adafruit_ADXL343'
+        for l in $libs
+        do
+          echo $l
+        done
