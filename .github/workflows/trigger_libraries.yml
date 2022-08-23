@@ -3,7 +3,7 @@ name: Trigger Libraries
 on:
   push:
     branches: [gh-pages, update-trigger-lib]
-    paths: 'package_adafruit_index.json'
+#    paths: 'package_adafruit_index.json'
 
 jobs:
   trigger-libraries:
