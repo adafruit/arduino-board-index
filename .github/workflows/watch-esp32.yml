@@ -1,0 +1,15 @@
+name: Watch Arduino-ESP32
+
+on:
+  schedule: '*/5 * * * *'
+  push:
+
+jobs:
+  trigger-libraries:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trigger Script
+      env:
+        GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+      run: |
+        date
