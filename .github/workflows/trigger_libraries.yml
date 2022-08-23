@@ -89,5 +89,5 @@ jobs:
           echo "Triggering $lib"
           #gh api repos/adafruit/$lib/dispatches -f event_type='rebuild by arduino-board-index'
           # sleep a bit to prevent CI overflow
-          sleep(1)
+          sleep 1.0
         done
