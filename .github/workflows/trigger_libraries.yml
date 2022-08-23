@@ -9,12 +9,9 @@ jobs:
   trigger-libraries:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
     - name: Trigger Script
       env:
-        GH_REPO_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
         gh release list
         libs='Adafruit_ADS1X15 Adafruit_ADXL343'
