@@ -1,16 +1,35 @@
 name: Watch Arduino-ESP32
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'
+  #schedule:
+  #  - cron: '*/10 * * * *'
   push:
 
 jobs:
   trigger-libraries:
     runs-on: ubuntu-latest
     steps:
-    - name: Get arduino-esp32 release
+
+    - name: Get arduino-esp32 latest release
       env:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
-        date
+        latest="$(echo `gh release list -R hathach/arduino-esp32 -L 1` | grep -oE 'Latest (.+) ' | cut -d ' ' -f2)"
+        echo $latest > latest_version.txt
+        echo >> $GITHUB_ENV LATEST=$latest
+
+    - name: Cache release version
+      id: cache-release
+      uses: actions/cache@v3
+      with:
+        path: latest_version.txt
+        key: ${{ env.LATEST }}
+
+    - name: Trigger trigger_libraries workflow
+      if: steps.cache-release.outputs.cache-hit != 'true'
+      env:
+        GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
+      run: |
+        echo There is a new releae version from arduino-esp32: $LATEST
+        gh workflow run trigger_libraries.yml
+
