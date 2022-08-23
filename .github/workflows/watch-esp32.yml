@@ -1,14 +1,15 @@
 name: Watch Arduino-ESP32
 
 on:
-  schedule: '*/5 * * * *'
+  schedule:
+    - cron: '*/5 * * * *'
   push:
 
 jobs:
   trigger-libraries:
     runs-on: ubuntu-latest
     steps:
-    - name: Trigger Script
+    - name: Get arduino-esp32 release
       env:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
