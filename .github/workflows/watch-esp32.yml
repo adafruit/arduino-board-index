@@ -2,7 +2,7 @@ name: Watch Arduino-ESP32
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/10 * * * *'
   push:
 
 jobs:
