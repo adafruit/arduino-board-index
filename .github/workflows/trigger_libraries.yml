@@ -13,6 +13,8 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
+        # Enable repo scope for repository_dispatch permission
+        gh auth refresh -h github.com -s repo
         #libs='Adafruit_ADS1X15 Adafruit_ADXL343'
         libs='Adafruit_ADXL343'
         for l in $libs
