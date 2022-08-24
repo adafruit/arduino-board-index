@@ -1,9 +1,10 @@
 name: Watch Arduino-ESP32
 
 on:
-  #schedule:
-  #  - cron: '*/10 * * * *'
   push:
+  schedule:
+    # run every day at 3:14 am
+    - cron: '14 3 * * *'
 
 jobs:
   watch-arduino-esp32:
@@ -14,7 +15,7 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
-        latest="$(echo `gh release list -R hathach/arduino-esp32 -L 1` | grep -oE 'Latest (.+) ' | cut -d ' ' -f2)"
+        latest="$(echo `gh release list -R espressif/arduino-esp32 -L 1` | grep -oE 'Latest (.+) ' | cut -d ' ' -f2)"
         echo $latest > latest_version.txt
         echo >> $GITHUB_ENV LATEST=$latest
 
