@@ -6,7 +6,7 @@ on:
   push:
 
 jobs:
-  trigger-libraries:
+  watch-arduino-esp32:
     runs-on: ubuntu-latest
     steps:
 
