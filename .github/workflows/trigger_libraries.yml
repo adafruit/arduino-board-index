@@ -2,8 +2,8 @@ name: Trigger Libraries
 
 on:
   push:
-#    branches: gh-pages
-#    paths: 'package_adafruit_index.json'
+    branches: gh-pages
+    paths: 'package_adafruit_index.json'
   workflow_dispatch:
     inputs:
       reason:
@@ -17,11 +17,10 @@ jobs:
       env:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
-        # sorted alphabetically
+        # Rebuild reason either by esp32 or our own release
         reason="${{ github.event.inputs.reason }}"
-        echo input reason = $reason
         [[ -z "$reason" ]] && reason="rebuild by Adafruit SAMD/nRF new release"
-        echo var reason = $reason
+        # sorted alphabetically
         libs='Adafruit_ADS1X15
               Adafruit_ADXL343'
         for lib in $libs

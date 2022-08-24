@@ -31,5 +31,5 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
         echo There is a new releae version from arduino-esp32: $LATEST
-        gh workflow run trigger_libraries.yml -R $GITHUB_REPOSITORY
+        gh workflow run trigger_libraries.yml -f reason="rebuild by ESP32 release $LATEST" -R $GITHUB_REPOSITORY
 
