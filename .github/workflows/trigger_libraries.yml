@@ -20,14 +20,14 @@ jobs:
         # sorted alphabetically
         reason="${{ github.event.inputs.reason }}"
         echo input reason = $reason
-        [[ -z "$reason" ]] && reason="SAMD/nRF new release"
+        [[ -z "$reason" ]] && reason="rebuild by Adafruit SAMD/nRF new release"
         echo var reason = $reason
         libs='Adafruit_ADS1X15
               Adafruit_ADXL343'
         for lib in $libs
         do
           echo "Triggering $lib"
-          gh api repos/adafruit/$lib/dispatches -f event_type=$reason
+          gh api repos/adafruit/$lib/dispatches -f event_type="$reason"
           # sleep a bit to prevent CI overflow
           #sleep 60
         done
