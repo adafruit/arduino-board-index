@@ -18,7 +18,7 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
         # sorted alphabetically
-        reason=${{ github.event.inputs.reason }}
+        reason="${{ github.event.inputs.reason }}"
         echo input reason = $reason
         [[ -z "$reason" ]] && reason="SAMD/nRF new release"
         echo var reason = $reason
