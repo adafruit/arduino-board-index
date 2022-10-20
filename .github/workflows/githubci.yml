@@ -8,12 +8,12 @@ jobs:
 
     steps:
     - name: Setup Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
         
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
         
     - name: Install Arduino CLI and Tools
       run: |
