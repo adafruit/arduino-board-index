@@ -27,9 +27,9 @@ jobs:
               Adafruit-ST7735-Library
               Adafruit-Si4713-Library
               Adafruit-TPA2016-Library
-              Adafruit_9DOF
               Adafruit_ADS1X15
               Adafruit_ADXL343
+              Adafruit_AHRS
               Adafruit_AM2320
               Adafruit_APDS9960
               Adafruit_AS726x
@@ -83,7 +83,6 @@ jobs:
               Adafruit_TCS34725
               Adafruit_TLC5947
               Adafruit_TLC59711
-              Adafruit_TinyFlash
               Adafruit_TinyUSB_Arduino
               Adafruit_VCNL4010
               Adafruit_VEML6070
