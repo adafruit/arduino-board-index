@@ -83,7 +83,6 @@ jobs:
               Adafruit_TCS34725
               Adafruit_TLC5947
               Adafruit_TLC59711
-              Adafruit_TinyFlash
               Adafruit_TinyUSB_Arduino
               Adafruit_VCNL4010
               Adafruit_VEML6070
