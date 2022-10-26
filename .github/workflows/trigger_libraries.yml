@@ -22,10 +22,10 @@ jobs:
         [[ -z "$reason" ]] && reason="rebuild by Adafruit SAMD/nRF new release"
 
         # Get list of Adafruit repos with 'arduino-library' tag in topic
-        libs=$(gh repo list adafruit --no-archived --visibility public --topic arduino-library --json name --jq '.[].name' | sort | xargs)
+        libs=$(gh repo list adafruit --no-archived --visibility public --limit 9999 ---topic arduino-library --json name --jq '.[].name' | sort | xargs)
 
-        echo "::group::{There are `echo $REPOS | wc -w` libraries:}"
-        echo $REPOS
+        echo "::group::{There are `echo $libs | wc -w` libraries:}"
+        echo $libs
         echo "::endgroup::"
 
         for lib in $libs
