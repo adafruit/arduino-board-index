@@ -33,5 +33,5 @@ jobs:
           echo "Triggering $lib"
           gh api repos/adafruit/$lib/dispatches -f event_type="$reason"
           # sleep a bit to prevent CI overflow
-          sleep 90
+          sleep 120
         done
