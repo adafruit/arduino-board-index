@@ -2,8 +2,8 @@ name: Trigger Libraries
 
 on:
   push:
-    #branches: gh-pages
-    #paths: 'package_adafruit_index.json'
+    branches: gh-pages
+    paths: 'package_adafruit_index.json'
   workflow_dispatch:
     inputs:
       reason:
@@ -31,7 +31,7 @@ jobs:
         for lib in $libs
         do
           echo "Triggering $lib"
-          #gh api repos/adafruit/$lib/dispatches -f event_type="$reason"
+          gh api repos/adafruit/$lib/dispatches -f event_type="$reason"
           # sleep a bit to prevent CI overflow
-          #sleep 90
+          sleep 90
         done
