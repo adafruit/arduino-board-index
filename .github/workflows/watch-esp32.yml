@@ -16,6 +16,7 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
       run: |
         latest="$(echo `gh release list -R espressif/arduino-esp32 -L 1` | grep -oE 'Latest (.+) ' | cut -d ' ' -f2)"
+        echo "arduino-esp32 latest release is: $latest"
         echo $latest > latest_version.txt
         echo >> $GITHUB_ENV LATEST=$latest
 
