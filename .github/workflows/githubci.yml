@@ -1,6 +1,10 @@
 name: Build
 
-on: [pull_request, push]
+on:
+  pull_request:
+    paths: 'package_adafruit_index.json'
+  push:
+    paths: 'package_adafruit_index.json'
 
 jobs:
   build:
