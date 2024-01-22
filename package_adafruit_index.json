@@ -286,28 +286,28 @@
               "host": "aarch64-linux-gnu",
               "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-aarch64-linux.tar.bz2",
-              "checksum": "MD5:0dfa059aae18fcf7d842e30c525076a4",
+              "checksum": "SHA-256:1f5b9309006737950b2218250e6bb392e2d68d4f1a764fe66be96e2a78888d83",
               "size": "128670769"
             },
             {
               "host": "i686-mingw32",
               "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
               "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
-              "checksum": "MD5:9d60cbb0e358ab6a9d3c9e5dc3624dd2",
+              "checksum": "SHA-256:54e0879b78937cf74a548f9fd242cdfd703bec9fe135d2bb4f56acf5c05d6d61",
               "size": "153520070"
             },
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-mac.tar.bz2",
-              "checksum": "MD5:241b64f0578db2cf146034fc5bcee3d4",
+              "checksum": "SHA-256:1249f860d4155d9c3ba8f30c19e7a88c5047923cea17e0d08e633f12408f01f0",
               "size": "116770520"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "https://github.com/adafruit/arduino-board-index/releases/download/build-tools/gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
               "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-x86_64-linux.tar.bz2",
-              "checksum": "MD5:fe0029de4f4ec43cf7008944e34ff8cc",
+              "checksum": "SHA-256:bcd840f839d5bf49279638e9f67890b2ef3a7c9c7a9b25271e83ec4ff41d177a",
               "size": "116802378"
             },
             {
@@ -323,28 +323,28 @@
           "systems": [
             {
               "host": "i386-apple-darwin11",
-              "checksum": "MD5:603bcce8e59683ac27054b3197a53254",
+              "checksum": "SHA-256:41056ffeba4bcb5bbea13185461a1269613ac13321fbda3e7dc59ee664ee3f06",
               "size": "96372129",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2"
             },
             {
               "host": "i686-linux-gnu",
-              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+              "checksum": "SHA-256:1e94f8e287d100f0d36702ca23be7cfb7c9dabdb7e4fce9f81872f1e13e5ab8a",
               "size": "92811866",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:f88caac80b4444a17344f57ccb760b90",
+              "checksum": "SHA-256:1e94f8e287d100f0d36702ca23be7cfb7c9dabdb7e4fce9f81872f1e13e5ab8a",
               "size": "92811866",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2"
             },
             {
               "host": "i686-mingw32",
-              "checksum": "MD5:32d950225b6c7c886f6225c1fc578934",
+              "checksum": "SHA-256:ca9629dfed6f6fba075b891f6d6d0b7eca5b051d130bdbd1a089af65e14edb88",
               "size": "102981732",
               "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2"
@@ -357,42 +357,42 @@
           "systems": [
             {
               "host": "i386-apple-darwin11",
-              "checksum": "MD5:04f65e24f36d55d10b71c1ebf49cd070",
+              "checksum": "SHA-256:44ea641461c6d497fe171f27be71c0723869f858fba704b63ec20428ad36e332",
               "size": "362222",
               "archiveFileName": "nrfjprog-9.4.0-mac.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-mac.tar.bz2"
             },
             {
               "host": "i686-linux-gnu",
-              "checksum": "MD5:9cf73f1f78cb8e249ed4e6f963d08a35",
+              "checksum": "SHA-256:8d8e546dc36954bc7f4ce169db44129043604ad6764a3721bde2436b0fb57a52",
               "size": "177428",
               "archiveFileName": "nrfjprog-9.4.0-linux32.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux32.tar.bz2"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:da3c7b348e0c22766f175a4a9cca0d19",
+              "checksum": "SHA-256:498470e2c94affcd56d77637a02ac09e6c6994d768d8a9675c0d07da56d4e769",
               "size": "190020",
               "archiveFileName": "nrfjprog-9.4.0-linux64.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-linux64.tar.bz2"
             },
             {
               "host": "i686-mingw32",
-              "checksum": "MD5:8352392ae0272173e1508d1218f51671",
+              "checksum": "SHA-256:f7790939f9f22dafe566fa14f059c80e74e123f2ad07edab19841e150d103a66",
               "size": "851576",
               "archiveFileName": "nrfjprog-9.4.0-win32.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-9.4.0-win32.tar.bz2"
             },
             {
               "host": "arm-linux-gnueabihf",
-              "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+              "checksum": "SHA-256:8c2f99c7bc7a938c621aec2351f566f33376d35c8ab4b39ea339f51250fe19ad",
               "size": "2794097",
               "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
             },
             {
               "host": "aarch64-linux-gnu",
-              "checksum": "MD5:3703bed3c1114e8f4ef1b0b2d65aeb0a",
+              "checksum": "SHA-256:8c2f99c7bc7a938c621aec2351f566f33376d35c8ab4b39ea339f51250fe19ad",
               "size": "2794097",
               "archiveFileName": "nrfjprog-10.15.0-arm.tar.bz2",
               "url": "https://github.com/adafruit/Adafruit_nRF52_Arduino/releases/download/gcc-5_2-2015q4/nrfjprog-10.15.0-arm.tar.bz2"
@@ -405,28 +405,28 @@
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
+              "checksum": "SHA-256:535504475d0238bd47649aa96f7583cef855c0dd19c5398e1475274481b974d8",
               "size": "28295",
               "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
               "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
+              "checksum": "SHA-256:abea7bda6fefa275ea795f447a463d1f13fefaad95420b8ec3730996c464e909",
               "size": "28667",
               "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
               "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz"
             },
             {
               "host": "i386-apple-darwin11",
-              "checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
+              "checksum": "SHA-256:294b1a31067d67b92a4b21007697d9e668d2e5d2766ff2e86198f79214c09f3c",
               "size": "3742",
               "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
               "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz"
             },
             {
               "host": "i686-mingw32",
-              "checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
+              "checksum": "SHA-256:2ad36a9bb13eaec6518db5a2aca535fa04ebf64625252ad76c24840091848b60",
               "size": "525710",
               "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
               "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz"
