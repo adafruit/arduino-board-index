@@ -10126,6 +10126,145 @@
               "version": "0.11.0-arduino2"
             }
           ]
+        },
+        {
+          "name": "Adafruit SAMD Boards",
+          "architecture": "samd",
+          "version": "1.7.17",
+          "category": "Adafruit",
+          "url": "https://adafruit.github.io/arduino-board-index/boards/adafruit-samd-1.7.17.tar.bz2",
+          "archiveFileName": "adafruit-samd-1.7.17.tar.bz2",
+          "checksum": "SHA-256:4cdf74e3a261dadd2f3a6f2b62338c180f54d2d560af5670fa602b60d4638466",
+          "size": "4693268",
+          "help": {
+            "online": "https://forums.adafruit.com"
+          },
+          "boards": [
+            {
+              "name": "Adafruit Feather M0"
+            },
+            {
+              "name": "Adafruit Feather M0 Express"
+            },
+            {
+              "name": "Adafruit Metro M0 Express"
+            },
+            {
+              "name": "Adafruit Circuit Playground Express"
+            },
+            {
+              "name": "Adafruit Gemma M0"
+            },
+            {
+              "name": "Adafruit Trinket M0"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M0"
+            },
+            {
+              "name": "Adafruit pIRkey M0"
+            },
+            {
+              "name": "Adafruit Metro M4"
+            },
+            {
+              "name": "Adafruit Grand Central M4"
+            },
+            {
+              "name": "Adafruit ItsyBitsy M4"
+            },
+            {
+              "name": "Adafruit Feather M4 Express"
+            },
+            {
+              "name": "Adafruit Hallowing M0"
+            },
+            {
+              "name": "Adafruit NeoTrellis M4"
+            },
+            {
+              "name": "Adafruit PyPortal M4"
+            },
+            {
+              "name": "Adafruit PyBadge M4"
+            },
+            {
+              "name": "Adafruit Metro M4 AirLift"
+            },
+            {
+              "name": "Adafruit Matrix Portal M4"
+            },
+            {
+              "name": "Adafruit BLM Badge"
+            },
+            {
+              "name": "Adafruit QT Py"
+            },
+            {
+              "name": "Adafruit Feather M4 CAN"
+            },
+            {
+              "name": "Adafruit Neo Trinkey"
+            },
+            {
+              "name": "Adafruit Rotary Trinkey"
+            },
+            {
+              "name": "Adafruit NeoKey Trinkey"
+            },
+            {
+              "name": "Adafruit Slide Trinkey"
+            },
+            {
+              "name": "Adafruit ProxLight Trinkey"
+            },
+            {
+              "name": "Adafruit Pixel Trinkey"
+            },
+            {
+              "name": "Adafruit TRRS Trinkey"
+            },
+            {
+              "name": "Adafruit Thumbstick Trinkey"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "adafruit",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.2"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
         }
       ]
     },
